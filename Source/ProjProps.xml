@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Application>
+
+  <Header>
+    <Version val="11009"/>
+    <WithIsn val="Y"/>
+    <LastIsn val="0"/>
+  </Header>
+
+  <ProjectProperties>
+    <ProjectData>
+      <GUID val="{4DC4CB1A-017F-4524-AE08-E7B85AE5FE35}"/>
+      <RemoteFlowMonitorRight comp="-1"/>
+      <Caption val="手順書表示"/>
+      <Icon val="%ICOPATH%tejun.ico"/>
+      <NulArithmetic val="N"/>
+      <WindowSortBy val="R"/>
+      <_SystemPulldownMenu comp="-1" obj="1"/>
+      <_SystemContextMenu comp="-1"/>
+      <ExposeComment val="N"/>
+      <ProjectName val="TEJUN"/>
+    </ProjectData>
+  </ProjectProperties>
+
+</Application>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Application>
+
+  <Header>
+    <Version val="11009"/>
+    <WithIsn val="Y"/>
+  </Header>
+
+  <ProgramsRepositoryHeaders>
+    <Program>
+      <Header Description="メインプログラム" ISN_2="1" LastIsn="1" id="1">
+        <Resident val="N"/>
+        <SQL val="N"/>
+        <ReturnValue>
+          <ReturnValueAttr/>
+          <ParametersAttributes/>
+        </ReturnValue>
+        <SqlWhereExist val="N"/>
+        <TaskType val="B"/>
+        <External val="N"/>
+        <OpenRCMDIFrame val="N"/>
+        <Closeopentasks val="N"/>
+        <FormType val="N"/>
+        <DotNetObjectExists val="N"/>
+        <LastModified _date="737921" _time="59480" date="2021-05-11" time="16:31:20"/>
+      </Header>
+      <SourceFileTimeStamp _date="737921" _time="27080" date="2021-05-11" time="07:31:20"/>
+    </Program>
+    <Program>
+      <Header Description="手順書表示" ISN_2="1" LastIsn="1" id="2">
+        <ExecutionRight comp="-1"/>
+        <Resident val="N"/>
+        <SQL val="N"/>
+        <ReturnValue>
+          <ReturnValueAttr/>
+          <ParametersAttributes/>
+        </ReturnValue>
+        <SqlWhereExist val="N"/>
+        <TaskType val="O"/>
+        <External val="N"/>
+        <FormType val="N"/>
+        <DotNetObjectExists val="N"/>
+        <LastModified _date="738053" _time="56693" date="2021-09-20" time="15:44:53"/>
+      </Header>
+      <SourceFileTimeStamp _date="738053" _time="24293" date="2021-09-20" time="06:44:53"/>
+    </Program>
+    <Program>
+      <Header Description="SEL/製品番号一覧_MOR" ISN_2="1" LastIsn="7" id="3">
+        <ExecutionRight comp="-1"/>
+        <Resident val="N"/>
+        <SQL val="N"/>
+        <ReturnValue>
+          <ReturnValueAttr/>
+          <TSK_PARAMS val="3"/>
+          <ParametersCount val="3"/>
+          <ParametersAttributes>
+            <Attr MgAttr="A"/>
+            <Attr MgAttr="A"/>
+            <Attr MgAttr="D"/>
+          </ParametersAttributes>
+        </ReturnValue>
+        <SqlWhereExist val="N"/>
+        <TaskType val="O"/>
+        <External val="N"/>
+        <FormType val="N"/>
+        <DotNetObjectExists val="N"/>
+        <LastModified _date="738053" _time="57779" date="2021-09-20" time="16:02:59"/>
+      </Header>
+      <SourceFileTimeStamp _date="738053" _time="25379" date="2021-09-20" time="07:02:59"/>
+    </Program>
+    <Program>
+      <Header Description="SEL/製品番号候補チェック_MOR" ISN_2="1" LastIsn="2" id="4">
+        <Comment val="04.03.19"/>
+        <ExecutionRight comp="-1"/>
+        <Resident val="N"/>
+        <SQL val="N"/>
+        <ReturnValue>
+          <ReturnValueAttr/>
+          <TSK_PARAMS val="1"/>
+          <ParametersCount val="1"/>
+          <ParametersAttributes>
+            <Attr MgAttr="A"/>
+          </ParametersAttributes>
+        </ReturnValue>
+        <SqlWhereExist val="N"/>
+        <TaskType val="B"/>
+        <External val="N"/>
+        <FormType val="N"/>
+        <DotNetObjectExists val="N"/>
+        <LastModified _date="737922" _time="51447" date="2021-05-12" time="14:17:27"/>
+      </Header>
+      <SourceFileTimeStamp _date="737922" _time="19047" date="2021-05-12" time="05:17:27"/>
+    </Program>
+    <Program>
+      <Header Description="SEL/得意先一覧" ISN_2="1" LastIsn="2" id="5">
+        <ExecutionRight comp="-1"/>
+        <Resident val="N"/>
+        <SQL val="N"/>
+        <ReturnValue>
+          <ReturnValueAttr/>
+          <TSK_PARAMS val="1"/>
+          <ParametersCount val="3"/>
+          <ParametersAttributes>
+            <Attr MgAttr="A"/>
+          </ParametersAttributes>
+        </ReturnValue>
+        <SqlWhereExist val="N"/>
+        <TaskType val="O"/>
+        <External val="N"/>
+        <FormType val="N"/>
+        <DotNetObjectExists val="N"/>
+        <LastModified _date="737922" _time="51409" date="2021-05-12" time="14:16:49"/>
+      </Header>
+      <SourceFileTimeStamp _date="737922" _time="19009" date="2021-05-12" time="05:16:49"/>
+    </Program>
+  </ProgramsRepositoryHeaders>
+
+</Application>

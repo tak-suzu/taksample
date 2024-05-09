@@ -1,0 +1,3815 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Application>
+
+  <Header>
+    <Version val="11009"/>
+    <WithIsn val="Y"/>
+    <LastIsn val="226"/>
+    <LastIsnFolder val="0"/>
+    <Folders/>
+  </Header>
+
+  <ModelsRepository>
+    <Models>
+      <Object id="1" name="売上金額">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="N11CA"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167" val="0"/>
+          <StoredAs id="173"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="11"/>
+          <_Negative id="192" val="Y"/>
+        </PropertyList>
+      </Object>
+      <Object id="2" name="金型部番">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="20A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="20"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="3" name="金型品名">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="20A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="20"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="4" name="科目区分">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="1A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="1"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="5" name="カレンダ種別">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="2A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="2"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="6" name="カレンダ種別名称">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="8A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="8"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="7" name="機械番号">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="1A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167" val="0"/>
+          <StoredAs id="173"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="1"/>
+          <_Negative id="192"/>
+        </PropertyList>
+      </Object>
+      <Object id="8" name="銀行区分">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="2A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="2"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="9" name="銀行種類">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="2A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167" val="0"/>
+          <StoredAs id="173"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="2"/>
+          <_Negative id="192"/>
+        </PropertyList>
+      </Object>
+      <Object id="10" name="銀行名称">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="16A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="16"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="11" name="区分１">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="1A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="1"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="12" name="区分２">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="2A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167" val="0"/>
+          <StoredAs id="173"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="2"/>
+          <_Negative id="192"/>
+        </PropertyList>
+      </Object>
+      <Object id="13" name="係数境界値">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="7CA"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167" val="0"/>
+          <StoredAs id="173"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="7"/>
+          <_Negative id="192"/>
+        </PropertyList>
+      </Object>
+      <Object id="14" name="合計重量">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="N9.2CA"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167" val="0"/>
+          <DefaultValue id="170" val="0"/>
+          <StoredAs id="173"/>
+          <_Dec id="181" val="2"/>
+          <_Whole id="182" val="9"/>
+          <_Negative id="192" val="Y"/>
+        </PropertyList>
+      </Object>
+      <Object id="15" name="工順(3桁)">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="3A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="3"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="16" name="工順(2桁)">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="2A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="2"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="17" name="工順(分割)">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="1A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="1"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="18" name="工程加工費">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="N5.2CA"/>
+          <NullValue id="167" val="0"/>
+          <DefaultValue id="170" val="0"/>
+          <StoredAs id="173"/>
+          <_Dec id="181" val="2"/>
+          <_Whole id="182" val="5"/>
+          <_Negative id="192" val="Y"/>
+        </PropertyList>
+      </Object>
+      <Object id="19" name="工程コード">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="4A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="4"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="20" name="工程品目番号(量産)">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="XXXXX-XXXA"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="8"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="21" name="工程名称">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="20A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="20"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="22" name="購買数量">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="N7.2CA"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167" val="0"/>
+          <DefaultValue id="170" val="0"/>
+          <StoredAs id="173"/>
+          <_Dec id="181" val="2"/>
+          <_Whole id="182" val="7"/>
+          <_Negative id="192" val="Y"/>
+        </PropertyList>
+      </Object>
+      <Object id="23" name="購買単価">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="9.2CA"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167" val="0"/>
+          <DefaultValue id="170" val="0"/>
+          <StoredAs id="173"/>
+          <_Dec id="181" val="2"/>
+          <_Whole id="182" val="9"/>
+          <_Negative id="192"/>
+        </PropertyList>
+      </Object>
+      <Object id="24" name="購買品名">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="40A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="40"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="25" name="購買用途">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="20A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="20"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="26" name="サイクルタイム">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="3A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167" val="0"/>
+          <StoredAs id="173"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="3"/>
+          <_Negative id="192"/>
+        </PropertyList>
+      </Object>
+      <Object id="27" name="在庫金額">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="N11CA"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167" val="0"/>
+          <StoredAs id="173"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="11"/>
+          <_Negative id="192" val="Y"/>
+        </PropertyList>
+      </Object>
+      <Object id="28" name="在庫数">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="N9CA"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167" val="0"/>
+          <StoredAs id="173"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="9"/>
+          <_Negative id="192" val="Y"/>
+        </PropertyList>
+      </Object>
+      <Object id="29" name="材料コード(1)">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="1A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="1"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="30" name="材料コード(2)">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="2A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="2"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="31" name="材料ベース">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="7CA"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167" val="0"/>
+          <StoredAs id="173"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="7"/>
+          <_Negative id="192"/>
+        </PropertyList>
+      </Object>
+      <Object id="32" name="材料名称">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="8A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="8"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="33" name="材料名称Ｍ">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="16A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="16"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="34" name="作番">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="8A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="8"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="35" name="作業コード">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="3A"/>
+          <NullValue id="167"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="3"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="36" name="作業名称">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="12A"/>
+          <NullValue id="167"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="12"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="37" name="社員コード">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="6A"/>
+          <NullValue id="167"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="6"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="38" name="時間">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_TIME" id="1"/>
+          <Picture id="157" valUnicode="HH:MM:SSA"/>
+          <NullValue id="167" val="0"/>
+          <StoredAs id="173"/>
+        </PropertyList>
+      </Object>
+      <Object id="39" name="時間生産数">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="5CA"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167" val="0"/>
+          <StoredAs id="173"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="5"/>
+          <_Negative id="192"/>
+        </PropertyList>
+      </Object>
+      <Object id="40" name="支払金額">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="N11CA"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167" val="0"/>
+          <StoredAs id="173"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="11"/>
+          <_Negative id="192" val="Y"/>
+        </PropertyList>
+      </Object>
+      <Object id="41" name="支払金額2">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="N11.2CA"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167" val="0"/>
+          <DefaultValue id="170" val="0"/>
+          <StoredAs id="173"/>
+          <_Dec id="181" val="2"/>
+          <_Whole id="182" val="11"/>
+          <_Negative id="192" val="Y"/>
+        </PropertyList>
+      </Object>
+      <Object id="42" name="締日">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="2A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167" val="0"/>
+          <StoredAs id="173"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="2"/>
+          <_Negative id="192"/>
+        </PropertyList>
+      </Object>
+      <Object id="43" name="受注品番">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="25A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="25"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="44" name="出荷累計内容">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="20A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="20"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="45" name="出荷入数">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="5CA"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167" val="0"/>
+          <StoredAs id="173"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="5"/>
+          <_Negative id="192"/>
+        </PropertyList>
+      </Object>
+      <Object id="46" name="住所">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="40A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="40"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="47" name="ショット数">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="9CA"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167" val="0"/>
+          <StoredAs id="173"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="9"/>
+          <_Negative id="192"/>
+        </PropertyList>
+      </Object>
+      <Object id="48" name="数量">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="6.1CA"/>
+          <NullValue id="167" val="0"/>
+          <DefaultValue id="170" val="0"/>
+          <StoredAs id="173"/>
+          <_Dec id="181" val="1"/>
+          <_Whole id="182" val="6"/>
+          <_Negative id="192"/>
+        </PropertyList>
+      </Object>
+      <Object id="49" name="制御種別">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="2A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="2"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="50" name="制御番号">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="9CA"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167" val="0"/>
+          <StoredAs id="173"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="9"/>
+          <_Negative id="192"/>
+        </PropertyList>
+      </Object>
+      <Object id="51" name="生産数">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="N9CA"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167" val="0"/>
+          <StoredAs id="173"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="9"/>
+          <_Negative id="192" val="Y"/>
+        </PropertyList>
+      </Object>
+      <Object id="52" name="正式得意先名称">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="40A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="40"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="53" name="正式担当名称">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="40A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="40"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="54" name="棚卸番号">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="4A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167" val="0"/>
+          <StoredAs id="173"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="4"/>
+          <_Negative id="192"/>
+        </PropertyList>
+      </Object>
+      <Object id="55" name="単位コード">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="2A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167" val="0"/>
+          <StoredAs id="173"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="2"/>
+          <_Negative id="192"/>
+        </PropertyList>
+      </Object>
+      <Object id="56" name="単位名称">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="3A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="3"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="57" name="単価">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="7.2CA"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167" val="0"/>
+          <DefaultValue id="170" val="0"/>
+          <StoredAs id="173"/>
+          <_Dec id="181" val="2"/>
+          <_Whole id="182" val="7"/>
+          <_Negative id="192"/>
+        </PropertyList>
+      </Object>
+      <Object id="58" name="担当コード">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="4A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="4"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="59" name="担当名称">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="16A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="16"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="60" name="単品重量">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="7.2CA"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167" val="0"/>
+          <DefaultValue id="170" val="0"/>
+          <StoredAs id="173"/>
+          <_Dec id="181" val="2"/>
+          <_Whole id="182" val="7"/>
+          <_Negative id="192"/>
+        </PropertyList>
+      </Object>
+      <Object id="61" name="端末番号">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="2"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="2"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="62" name="鋳造消耗品コード">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="2A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167" val="0"/>
+          <StoredAs id="173"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="2"/>
+          <_Negative id="192"/>
+        </PropertyList>
+      </Object>
+      <Object id="63" name="鋳造消耗品名称">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="20A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="20"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="64" name="鋳造機種別コード">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="4A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="4"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="65" name="鋳造機種別名称">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="16A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="16"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="66" name="鋳造機台数">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="1A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167" val="0"/>
+          <StoredAs id="173"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="1"/>
+          <_Negative id="192"/>
+        </PropertyList>
+      </Object>
+      <Object id="67" name="鋳造機トン数">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="4A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167" val="0"/>
+          <StoredAs id="173"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="4"/>
+          <_Negative id="192"/>
+        </PropertyList>
+      </Object>
+      <Object id="68" name="鋳造機名称">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="7A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="7"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="69" name="鋳造係数">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="2.1A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167" val="0"/>
+          <DefaultValue id="170" val="0"/>
+          <StoredAs id="173"/>
+          <_Dec id="181" val="1"/>
+          <_Whole id="182" val="2"/>
+          <_Negative id="192"/>
+        </PropertyList>
+      </Object>
+      <Object id="70" name="鋳造時間">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="2A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167" val="0"/>
+          <StoredAs id="173"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="2"/>
+          <_Negative id="192"/>
+        </PropertyList>
+      </Object>
+      <Object id="71" name="注文番号">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="13A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="13"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="72" name="手形サイト">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="3A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167" val="0"/>
+          <StoredAs id="173"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="3"/>
+          <_Negative id="192"/>
+        </PropertyList>
+      </Object>
+      <Object id="73" name="手形サイト金額">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="3A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167" val="0"/>
+          <StoredAs id="173"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="3"/>
+          <_Negative id="192"/>
+        </PropertyList>
+      </Object>
+      <Object id="74" name="手形比率">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="1.2A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167" val="0"/>
+          <DefaultValue id="170" val="0"/>
+          <StoredAs id="173"/>
+          <_Dec id="181" val="2"/>
+          <_Whole id="182" val="1"/>
+          <_Negative id="192"/>
+        </PropertyList>
+      </Object>
+      <Object id="75" name="手番">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="3A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167" val="0"/>
+          <StoredAs id="173"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="3"/>
+          <_Negative id="192"/>
+        </PropertyList>
+      </Object>
+      <Object id="76" name="伝票番号">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="8A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="8"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="77" name="伝票内行番号">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="1A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167" val="0"/>
+          <StoredAs id="173"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="1"/>
+          <_Negative id="192"/>
+        </PropertyList>
+      </Object>
+      <Object id="78" name="電話番号">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="12A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="12"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="79" name="登録理由">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="24A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="24"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="80" name="得意先コード">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="4A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="4"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="81" name="得意先名称">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="16A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="16"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="82" name="取り個数">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="3A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167" val="0"/>
+          <StoredAs id="173"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="3"/>
+          <_Negative id="192"/>
+        </PropertyList>
+      </Object>
+      <Object id="83" name="年月日">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_DATE" id="1"/>
+          <Picture id="157" valUnicode="YY-MM-DDA"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167" val="0"/>
+          <StoredAs id="173"/>
+        </PropertyList>
+      </Object>
+      <Object id="84" name="年月">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_DATE" id="1"/>
+          <Picture id="157" valUnicode="YY-MMA"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167" val="0"/>
+          <StoredAs id="173"/>
+        </PropertyList>
+      </Object>
+      <Object id="85" name="納品書摘要">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="6A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="6"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="86" name="納品書伝票通番">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="3A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167" val="0"/>
+          <StoredAs id="173"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="3"/>
+          <_Negative id="192"/>
+        </PropertyList>
+      </Object>
+      <Object id="87" name="比率">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="3A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167" val="0"/>
+          <StoredAs id="173"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="3"/>
+          <_Negative id="192"/>
+        </PropertyList>
+      </Object>
+      <Object id="88" name="表示№">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="3A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167" val="0"/>
+          <StoredAs id="173"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="3"/>
+          <_Negative id="192"/>
+        </PropertyList>
+      </Object>
+      <Object id="89" name="品目番号">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="5A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="5"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="90" name="品目名称１">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="16A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="16"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="91" name="品目名称２">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="16A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="16"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="92" name="品目金型番号">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="7A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="7"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="93" name="不良コード">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="3A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="3"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="94" name="不良名称">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="20A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="20"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="95" name="分類内訳コード">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="2A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167" val="0"/>
+          <StoredAs id="173"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="2"/>
+          <_Negative id="192"/>
+        </PropertyList>
+      </Object>
+      <Object id="96" name="分類内訳名称">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="20A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="20"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="97" name="分類コード">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="1A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="1"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="98" name="分類名称">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="16A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="16"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="99" name="名称フリガナ">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="10A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="10"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="100" name="郵便番号">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="8A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="8"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="101" name="ロット番号">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="11"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167" val="0"/>
+          <StoredAs id="173"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="11"/>
+          <_Negative id="192"/>
+        </PropertyList>
+      </Object>
+      <Object id="102" name="見積書番号">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="6A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="6"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="103" name="賃率">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="4A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="4"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="104" name="制御キー">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="2A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167" val="0"/>
+          <StoredAs id="173"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="2"/>
+          <_Negative id="192"/>
+        </PropertyList>
+      </Object>
+      <Object id="105" name="制御番号">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="11A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167" val="0"/>
+          <StoredAs id="173"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="11"/>
+          <_Negative id="192"/>
+        </PropertyList>
+      </Object>
+      <Object id="106" name="発注ロット">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="8CA"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167" val="0"/>
+          <StoredAs id="173"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="8"/>
+          <_Negative id="192"/>
+        </PropertyList>
+      </Object>
+      <Object id="107" name="重量">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="5CA"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167" val="0"/>
+          <StoredAs id="173"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="5"/>
+          <_Negative id="192"/>
+        </PropertyList>
+      </Object>
+      <Object id="108" name="取個数">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="2A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167" val="0"/>
+          <StoredAs id="173"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="2"/>
+          <_Negative id="192"/>
+        </PropertyList>
+      </Object>
+      <Object id="109" name="段取時間">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="2.2A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167" val="0"/>
+          <DefaultValue id="170" val="0"/>
+          <StoredAs id="173"/>
+          <_Dec id="181" val="2"/>
+          <_Whole id="182" val="2"/>
+          <_Negative id="192"/>
+        </PropertyList>
+      </Object>
+      <Object id="110" name="出来高">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="4CA"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167" val="0"/>
+          <StoredAs id="173"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="4"/>
+          <_Negative id="192"/>
+        </PropertyList>
+      </Object>
+      <Object id="111" name="工賃">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="5.2CA"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167" val="0"/>
+          <DefaultValue id="170" val="0"/>
+          <StoredAs id="173"/>
+          <_Dec id="181" val="2"/>
+          <_Whole id="182" val="5"/>
+          <_Negative id="192"/>
+        </PropertyList>
+      </Object>
+      <Object id="112" name="費用">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="5.2CA"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167" val="0"/>
+          <DefaultValue id="170" val="0"/>
+          <StoredAs id="173"/>
+          <_Dec id="181" val="2"/>
+          <_Whole id="182" val="5"/>
+          <_Negative id="192"/>
+        </PropertyList>
+      </Object>
+      <Object id="113" name="備考">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="30A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="30"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="114" name="運賃">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="2.2A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167" val="0"/>
+          <DefaultValue id="170" val="0"/>
+          <StoredAs id="173"/>
+          <_Dec id="181" val="2"/>
+          <_Whole id="182" val="2"/>
+          <_Negative id="192"/>
+        </PropertyList>
+      </Object>
+      <Object id="115" name="管理費乗率">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="3A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="3"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="116" name="調整費">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="N5.2CA"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167" val="0"/>
+          <DefaultValue id="170" val="0"/>
+          <StoredAs id="173"/>
+          <_Dec id="181" val="2"/>
+          <_Whole id="182" val="5"/>
+          <_Negative id="192" val="Y"/>
+        </PropertyList>
+      </Object>
+      <Object id="117" name="銀行番号">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="4A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="4"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="118" name="銀行名">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="15A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="15"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="119" name="支店番号">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="3A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="3"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="120" name="支店名">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="15A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="15"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="121" name="預金種目">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="1A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167" val="0"/>
+          <StoredAs id="173"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="1"/>
+          <_Negative id="192"/>
+        </PropertyList>
+      </Object>
+      <Object id="122" name="口座番号">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="7A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167" val="0"/>
+          <StoredAs id="173"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="7"/>
+          <_Negative id="192"/>
+        </PropertyList>
+      </Object>
+      <Object id="123" name="受取人名">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="30A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="30"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="124" name="作業時間">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="4.1CA"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167" val="0"/>
+          <DefaultValue id="170" val="0"/>
+          <StoredAs id="173"/>
+          <_Dec id="181" val="1"/>
+          <_Whole id="182" val="4"/>
+          <_Negative id="192"/>
+        </PropertyList>
+      </Object>
+      <Object id="125" name="作業内容・理由">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="40A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="40"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="126" name="振替コード">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="8A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="8"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="127" name="年月日(年４桁)">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_DATE" id="1"/>
+          <Picture id="157" valUnicode="YYYY-MM-DDA"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167" val="0"/>
+          <StoredAs id="173"/>
+        </PropertyList>
+      </Object>
+      <Object id="128" name="使用機械名称">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="12A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="12"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="129" name="モルダロイ金型番号">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="4A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167" val="0"/>
+          <StoredAs id="173"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="4"/>
+          <_Negative id="192"/>
+        </PropertyList>
+      </Object>
+      <Object id="130" name="モルダロイ金型修理番号">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="2A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167" val="0"/>
+          <StoredAs id="173"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="2"/>
+          <_Negative id="192"/>
+        </PropertyList>
+      </Object>
+      <Object id="131" name="モルダロイ金型部番">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="16A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="16"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="132" name="モルダロイ金型品名">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="16A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="16"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="133" name="ダイカスト見積部番">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="22A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="22"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="134" name="ダイカスト見積品名">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="22A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="22"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="135" name="その他名称">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="8A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="8"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="136" name="償却数">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="8CA"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167" val="0"/>
+          <StoredAs id="173"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="8"/>
+          <_Negative id="192"/>
+        </PropertyList>
+      </Object>
+      <Object id="137" name="金型金額">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="8.2CA"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167" val="0"/>
+          <DefaultValue id="170" val="0"/>
+          <StoredAs id="173"/>
+          <_Dec id="181" val="2"/>
+          <_Whole id="182" val="8"/>
+          <_Negative id="192"/>
+        </PropertyList>
+      </Object>
+      <Object id="138" name="得意先コード(6桁)">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="6A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="6"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="139" name="取引先コード(6桁)">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="6A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="6"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="140" name="Jc_№">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="8A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="8"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="141" name="品名(20桁)">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="20A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="20"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="142" name="品名(40桁)">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="40A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="40"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="143" name="伝票注文番号">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="10A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="10"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="144" name="数量(7.2)">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="7.2CA"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167" val="0"/>
+          <DefaultValue id="170" val="0"/>
+          <StoredAs id="173"/>
+          <_Dec id="181" val="2"/>
+          <_Whole id="182" val="7"/>
+          <_Negative id="192"/>
+        </PropertyList>
+      </Object>
+      <Object id="145" name="数量(N7.2)">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="N7.2CA"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167" val="0"/>
+          <DefaultValue id="170" val="0"/>
+          <StoredAs id="173"/>
+          <_Dec id="181" val="2"/>
+          <_Whole id="182" val="7"/>
+          <_Negative id="192" val="Y"/>
+        </PropertyList>
+      </Object>
+      <Object id="146" name="売上金額(N9.2)">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="N9.2CA"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167" val="0"/>
+          <DefaultValue id="170" val="0"/>
+          <StoredAs id="173"/>
+          <_Dec id="181" val="2"/>
+          <_Whole id="182" val="9"/>
+          <_Negative id="192" val="Y"/>
+        </PropertyList>
+      </Object>
+      <Object id="147" name="支払金額(N9.2)">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="N9.2CA"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167" val="0"/>
+          <DefaultValue id="170" val="0"/>
+          <StoredAs id="173"/>
+          <_Dec id="181" val="2"/>
+          <_Whole id="182" val="9"/>
+          <_Negative id="192" val="Y"/>
+        </PropertyList>
+      </Object>
+      <Object id="148" name="在庫場所コード">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="2A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="2"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="149" name="取引先担当名称">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="20A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="20"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="150" name="係数">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="1.2A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167" val="0"/>
+          <DefaultValue id="170" val="0"/>
+          <StoredAs id="173"/>
+          <_Dec id="181" val="2"/>
+          <_Whole id="182" val="1"/>
+          <_Negative id="192"/>
+        </PropertyList>
+      </Object>
+      <Object id="151" name="在庫数">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="N8CA"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Style id="63" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167" val="0"/>
+          <StoredAs id="173"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="8"/>
+          <_Negative id="192" val="Y"/>
+        </PropertyList>
+      </Object>
+      <Object id="152" name="★【会計管理】------------START">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="1"/>
+          <NullValue id="167"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="1"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="153" name="裏書割引先">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="16A"/>
+          <NullValue id="167"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="16"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="154" name="勘定科目コード">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="3A"/>
+          <NullValue id="167" val="0"/>
+          <StoredAs id="173"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="3"/>
+          <_Negative id="192"/>
+        </PropertyList>
+      </Object>
+      <Object id="155" name="勘定科目名称">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="20A"/>
+          <NullValue id="167"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="20"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="156" name="金額(N11)">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="N11CA"/>
+          <NullValue id="167" val="0"/>
+          <StoredAs id="173"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="11"/>
+          <_Negative id="192" val="Y"/>
+        </PropertyList>
+      </Object>
+      <Object id="157" name="銀行コード">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="2A"/>
+          <NullValue id="167" val="0"/>
+          <StoredAs id="173"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="2"/>
+          <_Negative id="192"/>
+        </PropertyList>
+      </Object>
+      <Object id="158" name="区分(文字１)">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="1A"/>
+          <NullValue id="167"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="1"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="159" name="決済区分">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="1A"/>
+          <NullValue id="167"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="1"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="160" name="現預金区分">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="1A"/>
+          <NullValue id="167"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="1"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="161" name="口座コード">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="3A"/>
+          <NullValue id="167" val="0"/>
+          <StoredAs id="173"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="3"/>
+          <_Negative id="192"/>
+        </PropertyList>
+      </Object>
+      <Object id="162" name="債券コード">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="10A"/>
+          <NullValue id="167"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="10"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="163" name="時間">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_TIME" id="1"/>
+          <Picture id="157" valUnicode="HH:MM:SSA"/>
+          <NullValue id="167" val="0"/>
+          <StoredAs id="173"/>
+        </PropertyList>
+      </Object>
+      <Object id="164" name="手形支払場所">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="20A"/>
+          <NullValue id="167"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="20"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="165" name="手形状態区分">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="1A"/>
+          <NullValue id="167"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="1"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="166" name="摘要">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="40A"/>
+          <NullValue id="167"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="40"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="167" name="伝票番号">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="6CA"/>
+          <NullValue id="167" val="0"/>
+          <StoredAs id="173"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="6"/>
+          <_Negative id="192"/>
+        </PropertyList>
+      </Object>
+      <Object id="168" name="伝票内明細№">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="2A"/>
+          <NullValue id="167" val="0"/>
+          <StoredAs id="173"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="2"/>
+          <_Negative id="192"/>
+        </PropertyList>
+      </Object>
+      <Object id="169" name="得意先コード">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="4A"/>
+          <NullValue id="167"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="4"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="170" name="取引先コード">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="4A"/>
+          <NullValue id="167"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="4"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="171" name="入出金区分">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="1A"/>
+          <NullValue id="167"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="1"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="172" name="年月">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_DATE" id="1"/>
+          <Picture id="157" valUnicode="YY-MMA"/>
+          <NullValue id="167" val="0"/>
+          <StoredAs id="173"/>
+        </PropertyList>
+      </Object>
+      <Object id="173" name="年月日">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_DATE" id="1"/>
+          <Picture id="157" valUnicode="YY-MM-DDA"/>
+          <NullValue id="167" val="0"/>
+          <StoredAs id="173"/>
+        </PropertyList>
+      </Object>
+      <Object id="174" name="部門コード">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="2A"/>
+          <NullValue id="167"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="2"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="175" name="部門名称">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="12A"/>
+          <NullValue id="167"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="12"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="176" name="補助科目コード">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="2A"/>
+          <NullValue id="167" val="0"/>
+          <StoredAs id="173"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="2"/>
+          <_Negative id="192"/>
+        </PropertyList>
+      </Object>
+      <Object id="177" name="補助科目名称">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="20A"/>
+          <NullValue id="167"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="20"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="178" name="☆【会計管理】--------------END">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="1"/>
+          <NullValue id="167"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="1"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="179">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <StoredAs id="173"/>
+          <Size id="174"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="180" name="画面フォーム（標準）">
+        <PropertyList model="FORM_GUI0">
+          <Top id="22" val="14"/>
+          <Width id="23" val="510"/>
+          <Height id="24" val="322"/>
+          <TitleBar id="26"/>
+          <SystemMenu id="27"/>
+          <MinimizeButton id="28"/>
+          <MaximizeButton id="29"/>
+          <GridX id="38" val="1"/>
+          <GridY id="39" val="1"/>
+          <Font id="50" val="116"/>
+          <Color id="51" val="112"/>
+          <BorderStyle id="64" val="3"/>
+          <_Comment id="218"/>
+          <FormName id="311"/>
+          <WindowType id="358" val="1"/>
+          <UserStateIdentifier id="437"/>
+        </PropertyList>
+      </Object>
+      <Object id="181" name="帳票フォーム（Ａ３横）">
+        <PropertyList model="FORM_GUI1">
+          <Area id="17" val="H"/>
+          <Width id="23" val="4100"/>
+          <Height id="24" val="100"/>
+          <GridX id="38" val="3"/>
+          <GridY id="39" val="3"/>
+          <Font id="50" val="115"/>
+          <Color id="51" val="101"/>
+          <_Comment id="218"/>
+          <FormName id="311"/>
+        </PropertyList>
+      </Object>
+      <Object id="182" name="帳票フォーム（Ａ４縦）">
+        <PropertyList model="FORM_GUI1">
+          <Area id="17" val="H"/>
+          <Width id="23" val="1950"/>
+          <Height id="24" val="100"/>
+          <GridX id="38" val="3"/>
+          <GridY id="39" val="3"/>
+          <Font id="50" val="115"/>
+          <Color id="51" val="101"/>
+          <_Comment id="218"/>
+          <FormName id="311"/>
+        </PropertyList>
+      </Object>
+      <Object id="183" name="帳票フォーム（Ａ４横）">
+        <PropertyList model="FORM_GUI1">
+          <Area id="17" val="H"/>
+          <Width id="23" val="2850"/>
+          <Height id="24" val="100"/>
+          <GridX id="38" val="3"/>
+          <GridY id="39" val="3"/>
+          <Font id="50" val="115"/>
+          <Color id="51" val="101"/>
+          <_Comment id="218"/>
+          <FormName id="311"/>
+        </PropertyList>
+      </Object>
+      <Object id="184" name="帳票フォーム（Ｂ４横）">
+        <PropertyList model="FORM_GUI1">
+          <Area id="17" val="H"/>
+          <Width id="23" val="3550"/>
+          <Height id="24" val="100"/>
+          <GridX id="38" val="3"/>
+          <GridY id="39" val="3"/>
+          <Font id="50" val="115"/>
+          <Color id="51" val="101"/>
+          <_Comment id="218"/>
+          <FormName id="311"/>
+        </PropertyList>
+      </Object>
+      <Object id="185" name="エディット(F11,C白黒)">
+        <PropertyList model="CTRL_GUI0_EDIT">
+          <Font id="50" val="116"/>
+          <Color id="51" val="101"/>
+        </PropertyList>
+      </Object>
+      <Object id="186" name="エディット(F10,C白黒)">
+        <PropertyList model="CTRL_GUI0_EDIT">
+          <Font id="50" val="115"/>
+          <Color id="51" val="101"/>
+        </PropertyList>
+      </Object>
+      <Object id="187" name="テーブル">
+        <PropertyList model="CTRL_GUI0_TABLE">
+          <Style id="63" val="4"/>
+          <BorderStyle id="64" val="1"/>
+          <LineDivider id="78" val="Y"/>
+          <ColumnDivider id="189" val="Y"/>
+          <TableInWindow id="190"/>
+          <AllowColumnResize id="191"/>
+          <MultiMarking id="196"/>
+          <LastDivider id="260"/>
+          <RowHighlightStyle id="409" val="2"/>
+          <BottomPositionInterval id="411" val="2"/>
+        </PropertyList>
+      </Object>
+      <Object id="188" name="ラジオボタン(F11,C白黒)">
+        <PropertyList model="CTRL_GUI0_RADIO">
+          <Font id="50" val="116"/>
+          <Color id="51" val="101"/>
+          <BorderStyle id="64" val="3"/>
+          <Multiline id="71"/>
+        </PropertyList>
+      </Object>
+      <Object id="189" name="ラジオボタン(F10,C白黒)">
+        <PropertyList model="CTRL_GUI0_RADIO">
+          <Font id="50" val="115"/>
+          <Color id="51" val="101"/>
+          <Multiline id="71"/>
+        </PropertyList>
+      </Object>
+      <Object id="190" name="ﾁｪｯｸﾎﾞｯｸｽ(F11,C白黒)">
+        <PropertyList model="CTRL_GUI0_CHECKBOX">
+          <Font id="50" val="116"/>
+          <Color id="51" val="101"/>
+        </PropertyList>
+      </Object>
+      <Object id="191" name="ﾁｪｯｸﾎﾞｯｸｽ(F10,C白黒)">
+        <PropertyList model="CTRL_GUI0_CHECKBOX">
+          <Font id="50" val="115"/>
+          <Color id="51" val="101"/>
+        </PropertyList>
+      </Object>
+      <Object id="192" name="ｺﾝﾎﾞﾎﾞｯｸｽ(F11)">
+        <PropertyList model="CTRL_GUI0_COMBOBOX">
+          <Font id="50" val="116"/>
+        </PropertyList>
+      </Object>
+      <Object id="193" name="ｺﾝﾎﾞﾎﾞｯｸｽ(F10)">
+        <PropertyList model="CTRL_GUI0_COMBOBOX">
+          <Font id="50" val="115"/>
+        </PropertyList>
+      </Object>
+      <Object id="194">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <StoredAs id="173"/>
+          <Size id="174"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="195" name="鋳造金型コード">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="XXXXX-XXXA"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="8"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="196" name="プレス専用機金型コード">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="XXXXX-XXX-XA"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="9"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="197" name="部番">
+        <Comment val="03.10.14"/>
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="20A"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="20"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="198" name="品名">
+        <Comment val="03.10.14"/>
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="20A"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="20"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="199" name="鋳造機トン数">
+        <Comment val="03.10.14"/>
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="3A"/>
+          <StoredAs id="173"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="3"/>
+          <_Negative id="192"/>
+        </PropertyList>
+      </Object>
+      <Object id="200" name="作業コード(管理)">
+        <Comment val="03.10.15  MURAHASHI"/>
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="2A"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="2"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="201" name="ワークコード">
+        <Comment val="03.10.15  MURAHASHI"/>
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="8A"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="8"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="202" name="作業時間">
+        <Comment val="03.10.15  MURAHASHI"/>
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="3.1A"/>
+          <StoredAs id="173"/>
+          <_Dec id="181" val="1"/>
+          <_Whole id="182" val="3"/>
+          <_Negative id="192"/>
+        </PropertyList>
+      </Object>
+      <Object id="203" name="得意先簡略名称">
+        <Comment val="03.10.15  MURAHASHI"/>
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="20A"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="20"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="204" name="名称ﾌﾘｶﾞﾅ">
+        <Comment val="03.10.15  MURAHASHI"/>
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="20A"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="20"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="205" name="郵便番号">
+        <Comment val="03.10.15  MURAHASHI"/>
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="XXX-XXXXA"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="7"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="206" name="取引先簡略名称">
+        <Comment val="03.10.20  KANAYA"/>
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="20A"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="20"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="207" name="係数">
+        <Comment val="03.10.17  KOIZUMI"/>
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="1.2A"/>
+          <StoredAs id="173"/>
+          <_Dec id="181" val="2"/>
+          <_Whole id="182" val="1"/>
+          <_Negative id="192"/>
+        </PropertyList>
+      </Object>
+      <Object id="208" name="重量(5.2)">
+        <Comment val="03.10.21  KOIZUMI"/>
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="5.2CA"/>
+          <StoredAs id="173"/>
+          <_Dec id="181" val="2"/>
+          <_Whole id="182" val="5"/>
+          <_Negative id="192"/>
+        </PropertyList>
+      </Object>
+      <Object id="209" name="数量(9.2)">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="N9.2CA"/>
+          <StoredAs id="173"/>
+          <_Dec id="181" val="2"/>
+          <_Whole id="182" val="9"/>
+          <_Negative id="192" val="Y"/>
+        </PropertyList>
+      </Object>
+      <Object id="210" name="単価(9.2)">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="9.2CA"/>
+          <StoredAs id="173"/>
+          <_Dec id="181" val="2"/>
+          <_Whole id="182" val="9"/>
+          <_Negative id="192"/>
+        </PropertyList>
+      </Object>
+      <Object id="211" name="品目番号">
+        <Comment val="03.10.28  MURAHASHI"/>
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="XXXXX-XXXXXXA"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="11"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="212" name="材料ベース(5.2)">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="5.2CA"/>
+          <StoredAs id="173"/>
+          <_Dec id="181" val="2"/>
+          <_Whole id="182" val="5"/>
+          <_Negative id="192"/>
+        </PropertyList>
+      </Object>
+      <Object id="213" name="正式部番">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="25A"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="25"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="214" name="工順">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="2A"/>
+          <StoredAs id="173"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="2"/>
+          <_Negative id="192"/>
+        </PropertyList>
+      </Object>
+      <Object id="215" name="製品番号">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="XXXXX-XXXXXA"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="10"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="216" name="工程コード">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="3A"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="3"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="217" name="鋳造素材番号">
+        <Comment val="04.02.26  MURAHASHI"/>
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="XXXXX-XXXXA"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="9"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="218" name="金型構造名称">
+        <Comment val="04.03.05  murahashi"/>
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="16A"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="16"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="219" name="画面フォーム（会計管理）">
+        <Comment val="04.06.10  MURAHASHI"/>
+        <PropertyList model="FORM_GUI0">
+          <Width id="23" val="507"/>
+          <Height id="24" val="346"/>
+          <SystemMenu id="27"/>
+          <MinimizeButton id="28"/>
+          <MaximizeButton id="29"/>
+          <GridX id="38" val="1"/>
+          <GridY id="39" val="1"/>
+          <Font id="50" val="116"/>
+          <Color id="51" val="112"/>
+          <BorderStyle id="64" val="3"/>
+          <_Comment id="218"/>
+          <FormName id="311"/>
+          <WindowType id="358" val="1"/>
+          <UserStateIdentifier id="437"/>
+        </PropertyList>
+      </Object>
+      <Object id="220" name="鋳造注文番号">
+        <Comment val="05.03.09  KOIZUMI"/>
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="XXXX-XXXXXXA"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="10"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="221" name="Excel Application">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_BLOB" id="1"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="24"/>
+          <_FieldStyle id="276" val="3"/>
+          <_StoredData id="278" val="1"/>
+          <Instantiation id="279" val="1"/>
+          <TypeLibrary GUID="{00020813-0000-0000-C000-000000000046}" MAJOR="1" MINOR="6" id="281" name="Microsoft Excel 12.0 Object Library (Ver 1.6)"/>
+          <ObjectName CanCreate="1" GUID="{00024500-0000-0000-C000-000000000046}" id="282" name="Application"/>
+          <Content id="434" val="3"/>
+        </PropertyList>
+      </Object>
+      <Object id="222" name="Excel Worksheet">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_BLOB" id="1"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="24"/>
+          <_FieldStyle id="276" val="3"/>
+          <_StoredData id="278" val="2"/>
+          <Instantiation id="279" val="2"/>
+          <TypeLibrary GUID="{00020813-0000-0000-C000-000000000046}" MAJOR="1" MINOR="6" id="281" name="Microsoft Excel 12.0 Object Library (Ver 1.6)"/>
+          <ObjectName CanCreate="1" GUID="{00020820-0000-0000-C000-000000000046}" id="282" name="Worksheet"/>
+          <Content id="434" val="3"/>
+        </PropertyList>
+      </Object>
+      <Object id="223" name="Excel Range">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_BLOB" id="1"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="24"/>
+          <_FieldStyle id="276" val="3"/>
+          <_StoredData id="278" val="2"/>
+          <Instantiation id="279" val="2"/>
+          <TypeLibrary GUID="{00020813-0000-0000-C000-000000000046}" MAJOR="1" MINOR="6" id="281" name="Microsoft Excel 12.0 Object Library (Ver 1.6)"/>
+          <ObjectName CanCreate="1" GUID="{00020846-0000-0000-C000-000000000046}" id="282" name="Range"/>
+          <Content id="434" val="3"/>
+        </PropertyList>
+      </Object>
+      <Object id="224" name="文字型ベクトル(1次元)">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_BLOB" id="1"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="24"/>
+          <_FieldStyle id="276" val="4"/>
+          <CellModel attr_obj="FIELD_BLOB" comp="-1" id="287" obj="226"/>
+          <Content id="434" val="3"/>
+        </PropertyList>
+      </Object>
+      <Object id="225" name="文字型ベクトル(2次元)">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_BLOB" id="1"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="24"/>
+          <_FieldStyle id="276" val="4"/>
+          <CellModel attr_obj="FIELD_BLOB" comp="-1" id="287" obj="224"/>
+          <Content id="434" val="3"/>
+        </PropertyList>
+      </Object>
+      <Object id="226" name="1次元ベクトルセルモデル">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="50A"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="50"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+    </Models>
+  </ModelsRepository>
+
+</Application>

@@ -1,0 +1,2539 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Application>
+
+  <Header>
+    <Version val="11009"/>
+    <WithIsn val="Y"/>
+    <Exe comp="-1"/>
+    <LastIsn val="1"/>
+    <LastIsnFolder val="0"/>
+    <Folders/>
+  </Header>
+
+  <ComponentsRepository>
+    <Components>
+      <Component id="1" name="ipros">
+        <CompId val="2885213077-22134-19759-B79BC96C4"/>
+        <MciFile val="C:\Program Files (x86)\uniPaaS\Studio V1Plus\Builders\ECI\IPROS\ipros.eci"/>
+        <ComponentType val="uniPaaS"/>
+        <Type val="U"/>
+        <CABINET_FILE val="%PRGPATH%IPROS.ecf"/>
+        <LoadImmediate val="Y"/>
+        <CtlIndex val="1"/>
+        <LastISN val="501"/>
+        <ComponentModels>
+          <Object>
+            <id val="1"/>
+            <ItemIsn val="1"/>
+            <PublicName val="V9 Compatible Default Table"/>
+          </Object>
+        </ComponentModels>
+        <ComponentDataObjects>
+          <Object>
+            <id val="2"/>
+            <ItemIsn val="2"/>
+            <PublicName val="得意先情報"/>
+          </Object>
+          <Object>
+            <id val="3"/>
+            <ItemIsn val="3"/>
+            <PublicName val="取引先情報"/>
+          </Object>
+          <Object>
+            <id val="4"/>
+            <ItemIsn val="4"/>
+            <PublicName val="カレンダ情報"/>
+          </Object>
+          <Object>
+            <id val="6"/>
+            <ItemIsn val="5"/>
+            <PublicName val="メンテナンス情報"/>
+          </Object>
+          <Object>
+            <id val="20"/>
+            <ItemIsn val="6"/>
+            <PublicName val="鋳造機情報"/>
+          </Object>
+          <Object>
+            <id val="26"/>
+            <ItemIsn val="7"/>
+            <PublicName val="品目情報"/>
+          </Object>
+          <Object>
+            <id val="36"/>
+            <ItemIsn val="8"/>
+            <PublicName val="鋳造金型情報"/>
+          </Object>
+          <Object>
+            <id val="37"/>
+            <ItemIsn val="9"/>
+            <PublicName val="鋳造金型素材情報"/>
+          </Object>
+          <Object>
+            <id val="49"/>
+            <ItemIsn val="10"/>
+            <PublicName val="制御番号"/>
+          </Object>
+          <Object>
+            <id val="195"/>
+            <ItemIsn val="11"/>
+            <PublicName val="鋳造不良データ"/>
+          </Object>
+          <Object>
+            <id val="196"/>
+            <ItemIsn val="12"/>
+            <PublicName val="鋳造不良不良詳細データ"/>
+          </Object>
+          <Object>
+            <id val="199"/>
+            <ItemIsn val="13"/>
+            <PublicName val="ｼｮｯﾄ数実績データ(金型)"/>
+          </Object>
+          <Object>
+            <id val="200"/>
+            <ItemIsn val="14"/>
+            <PublicName val="ｼｮｯﾄ実績データ(素材)"/>
+          </Object>
+          <Object>
+            <id val="202"/>
+            <ItemIsn val="15"/>
+            <PublicName val="月次ﾄﾝ数別実績ｼｮｯﾄﾃﾞｰﾀ"/>
+          </Object>
+          <Object>
+            <id val="203"/>
+            <ItemIsn val="16"/>
+            <PublicName val="月次ｼｮｯﾄ数実績ﾃﾞｰﾀ"/>
+          </Object>
+          <Object>
+            <id val="396"/>
+            <ItemIsn val="17"/>
+            <PublicName val="モル品目情報"/>
+          </Object>
+          <Object>
+            <id val="398"/>
+            <ItemIsn val="18"/>
+            <PublicName val="モル金型成形情報"/>
+          </Object>
+          <Object>
+            <id val="403"/>
+            <ItemIsn val="19"/>
+            <PublicName val="モル成形金型素材情報"/>
+          </Object>
+          <Object>
+            <id val="409"/>
+            <ItemIsn val="20"/>
+            <PublicName val="モル制御番号"/>
+          </Object>
+          <Object>
+            <id val="437"/>
+            <ItemIsn val="21"/>
+            <PublicName val="モル月次実績ショットデータ"/>
+          </Object>
+          <Object>
+            <id val="453"/>
+            <ItemIsn val="22"/>
+            <PublicName val="モルショット数実績データ"/>
+          </Object>
+          <Object>
+            <id val="454"/>
+            <ItemIsn val="23"/>
+            <PublicName val="モルショット実績成形素材データ"/>
+          </Object>
+          <Object>
+            <id val="457"/>
+            <ItemIsn val="24"/>
+            <PublicName val="月次成形機別ショットデータ"/>
+          </Object>
+          <Object>
+            <id val="458"/>
+            <ItemIsn val="25"/>
+            <PublicName val="モル成形不良データ"/>
+          </Object>
+          <Object>
+            <id val="459"/>
+            <ItemIsn val="26"/>
+            <PublicName val="モル成形不良不良詳細データ"/>
+          </Object>
+          <Object>
+            <id val="668"/>
+            <ItemIsn val="27"/>
+            <PublicName val="金型基本情報"/>
+          </Object>
+          <Object>
+            <id val="851"/>
+            <ItemIsn val="28"/>
+            <PublicName val="人事基本データ"/>
+          </Object>
+          <Object>
+            <id val="852"/>
+            <ItemIsn val="29"/>
+            <PublicName val="社歴データ"/>
+          </Object>
+          <Object>
+            <id val="853"/>
+            <ItemIsn val="30"/>
+            <PublicName val="所属マスタ"/>
+          </Object>
+          <Object>
+            <id val="1137"/>
+            <ItemIsn val="501"/>
+            <PublicName val="品目一覧ワーク"/>
+          </Object>
+          <Object>
+            <id val="1272"/>
+            <ItemIsn val="31"/>
+            <PublicName val="鋳造用社員一覧"/>
+          </Object>
+          <Object>
+            <id val="1368"/>
+            <ItemIsn val="32"/>
+            <PublicName val="ｲﾌﾟﾛｽ側登録済確認ﾃﾞｰﾀ(CAMOS用)"/>
+          </Object>
+          <Object>
+            <id val="1637"/>
+            <ItemIsn val="33"/>
+            <PublicName val="モル成形機情報"/>
+          </Object>
+          <Object>
+            <id val="1791"/>
+            <ItemIsn val="34"/>
+            <PublicName val="モルサンプル品置場データ"/>
+          </Object>
+          <Object>
+            <id val="1882"/>
+            <ItemIsn val="500"/>
+            <PublicName val="手順管理データ"/>
+          </Object>
+        </ComponentDataObjects>
+        <ComponentPrograms>
+          <Object>
+            <id val="6"/>
+            <ItemIsn val="35"/>
+            <PublicName val="IP_イプロスメニュー"/>
+          </Object>
+          <Object>
+            <id val="68"/>
+            <ItemIsn val="36"/>
+            <PublicName val="IP_SEL/社内担当一覧"/>
+          </Object>
+          <Object>
+            <id val="78"/>
+            <ItemIsn val="37"/>
+            <PublicName val="IP_得意先情報一覧"/>
+          </Object>
+          <Object>
+            <id val="79"/>
+            <ItemIsn val="38"/>
+            <PublicName val="IP_得意先情報一覧表(6列)"/>
+          </Object>
+          <Object>
+            <id val="82"/>
+            <ItemIsn val="39"/>
+            <PublicName val="IP_取引先情報作成"/>
+          </Object>
+          <Object>
+            <id val="84"/>
+            <ItemIsn val="40"/>
+            <PublicName val="IP_取引先情報一覧"/>
+          </Object>
+          <Object>
+            <id val="85"/>
+            <ItemIsn val="41"/>
+            <PublicName val="IP_取引先情報一覧表(8列)"/>
+          </Object>
+          <Object>
+            <id val="88"/>
+            <ItemIsn val="42"/>
+            <PublicName val="IP_カレンダ情報作成"/>
+          </Object>
+          <Object>
+            <id val="89"/>
+            <ItemIsn val="43"/>
+            <PublicName val="IP_カレンダ情報一覧"/>
+          </Object>
+          <Object>
+            <id val="92"/>
+            <ItemIsn val="44"/>
+            <PublicName val="IP_銀行情報作成"/>
+          </Object>
+          <Object>
+            <id val="93"/>
+            <ItemIsn val="45"/>
+            <PublicName val="IP_銀行情報一覧"/>
+          </Object>
+          <Object>
+            <id val="96"/>
+            <ItemIsn val="46"/>
+            <PublicName val="IP_金型コード初期登録"/>
+          </Object>
+          <Object>
+            <id val="97"/>
+            <ItemIsn val="47"/>
+            <PublicName val="IP_品目番号初期登録"/>
+          </Object>
+          <Object>
+            <id val="98"/>
+            <ItemIsn val="48"/>
+            <PublicName val="IP_品目番号一覧"/>
+          </Object>
+          <Object>
+            <id val="99"/>
+            <ItemIsn val="49"/>
+            <PublicName val="IP_金型コード一覧"/>
+          </Object>
+          <Object>
+            <id val="100"/>
+            <ItemIsn val="50"/>
+            <PublicName val="IP_金型コード適用終了設定"/>
+          </Object>
+          <Object>
+            <id val="101"/>
+            <ItemIsn val="51"/>
+            <PublicName val="IP_品目番号適用終了設定"/>
+          </Object>
+          <Object>
+            <id val="142"/>
+            <ItemIsn val="52"/>
+            <PublicName val="DI_材料情報作成"/>
+          </Object>
+          <Object>
+            <id val="143"/>
+            <ItemIsn val="53"/>
+            <PublicName val="DI_材料情報一覧"/>
+          </Object>
+          <Object>
+            <id val="146"/>
+            <ItemIsn val="54"/>
+            <PublicName val="DI_工程情報作成"/>
+          </Object>
+          <Object>
+            <id val="147"/>
+            <ItemIsn val="55"/>
+            <PublicName val="DI_工程情報一覧"/>
+          </Object>
+          <Object>
+            <id val="150"/>
+            <ItemIsn val="56"/>
+            <PublicName val="DI_鋳造機情報作成"/>
+          </Object>
+          <Object>
+            <id val="151"/>
+            <ItemIsn val="57"/>
+            <PublicName val="DI_鋳造機情報一覧"/>
+          </Object>
+          <Object>
+            <id val="154"/>
+            <ItemIsn val="58"/>
+            <PublicName val="DI_鋳造係数情報作成"/>
+          </Object>
+          <Object>
+            <id val="155"/>
+            <ItemIsn val="59"/>
+            <PublicName val="DI_鋳造係数情報一覧"/>
+          </Object>
+          <Object>
+            <id val="158"/>
+            <ItemIsn val="60"/>
+            <PublicName val="DI_不良種類情報作成"/>
+          </Object>
+          <Object>
+            <id val="159"/>
+            <ItemIsn val="61"/>
+            <PublicName val="DI_不良種類情報一覧"/>
+          </Object>
+          <Object>
+            <id val="162"/>
+            <ItemIsn val="62"/>
+            <PublicName val="DI_社外鋳造単価基本情報作成"/>
+          </Object>
+          <Object>
+            <id val="163"/>
+            <ItemIsn val="63"/>
+            <PublicName val="DI_社外鋳造単価基本情報一覧"/>
+          </Object>
+          <Object>
+            <id val="166"/>
+            <ItemIsn val="64"/>
+            <PublicName val="DI_ケーヒン海外コード情報作成"/>
+          </Object>
+          <Object>
+            <id val="167"/>
+            <ItemIsn val="65"/>
+            <PublicName val="DI_ケーヒン海外コード情報一覧"/>
+          </Object>
+          <Object>
+            <id val="170"/>
+            <ItemIsn val="66"/>
+            <PublicName val="DI_品目情報作成"/>
+          </Object>
+          <Object>
+            <id val="176"/>
+            <ItemIsn val="67"/>
+            <PublicName val="DI_品目情報一覧"/>
+          </Object>
+          <Object>
+            <id val="177"/>
+            <ItemIsn val="68"/>
+            <PublicName val="DI_品目番号一覧表"/>
+          </Object>
+          <Object>
+            <id val="178"/>
+            <ItemIsn val="69"/>
+            <PublicName val="IP_ダイカスト品目番号検索"/>
+          </Object>
+          <Object>
+            <id val="186"/>
+            <ItemIsn val="70"/>
+            <PublicName val="DI_共通製品情報一覧"/>
+          </Object>
+          <Object>
+            <id val="187"/>
+            <ItemIsn val="71"/>
+            <PublicName val="DI_共通素材情報一覧"/>
+          </Object>
+          <Object>
+            <id val="190"/>
+            <ItemIsn val="72"/>
+            <PublicName val="DI_担当工程一覧表"/>
+          </Object>
+          <Object>
+            <id val="193"/>
+            <ItemIsn val="73"/>
+            <PublicName val="DI_部品情報作成"/>
+          </Object>
+          <Object>
+            <id val="196"/>
+            <ItemIsn val="74"/>
+            <PublicName val="DI_部品情報一覧"/>
+          </Object>
+          <Object>
+            <id val="199"/>
+            <ItemIsn val="75"/>
+            <PublicName val="DI_金型鋳造情報作成"/>
+          </Object>
+          <Object>
+            <id val="200"/>
+            <ItemIsn val="76"/>
+            <PublicName val="DI_金型鋳造情報一覧"/>
+          </Object>
+          <Object>
+            <id val="203"/>
+            <ItemIsn val="77"/>
+            <PublicName val="DI_金型構造情報作成"/>
+          </Object>
+          <Object>
+            <id val="204"/>
+            <ItemIsn val="78"/>
+            <PublicName val="DI_金型構造情報一覧"/>
+          </Object>
+          <Object>
+            <id val="222"/>
+            <ItemIsn val="79"/>
+            <PublicName val="DI_ＥＤＩ受注登録(ｵﾘｴﾝﾀﾙﾓｰﾀ)"/>
+          </Object>
+          <Object>
+            <id val="223"/>
+            <ItemIsn val="80"/>
+            <PublicName val="DI_ＥＤＩ受注削除(ｵﾘｴﾝﾀﾙﾓｰﾀ)"/>
+          </Object>
+          <Object>
+            <id val="226"/>
+            <ItemIsn val="81"/>
+            <PublicName val="DI_ＥＤＩ受注登録(ｹｰﾋﾝ)"/>
+          </Object>
+          <Object>
+            <id val="231"/>
+            <ItemIsn val="82"/>
+            <PublicName val="DI_受注一覧"/>
+          </Object>
+          <Object>
+            <id val="232"/>
+            <ItemIsn val="83"/>
+            <PublicName val="DI_受注残一覧"/>
+          </Object>
+          <Object>
+            <id val="234"/>
+            <ItemIsn val="84"/>
+            <PublicName val="DI_受注修正削除一覧"/>
+          </Object>
+          <Object>
+            <id val="239"/>
+            <ItemIsn val="85"/>
+            <PublicName val="DI_内示一覧"/>
+          </Object>
+          <Object>
+            <id val="242"/>
+            <ItemIsn val="86"/>
+            <PublicName val="DI_材料管理表"/>
+          </Object>
+          <Object>
+            <id val="245"/>
+            <ItemIsn val="87"/>
+            <PublicName val="DI_月別受注実績一覧"/>
+          </Object>
+          <Object>
+            <id val="248"/>
+            <ItemIsn val="88"/>
+            <PublicName val="DI_受注内示比較一覧"/>
+          </Object>
+          <Object>
+            <id val="251"/>
+            <ItemIsn val="89"/>
+            <PublicName val="DI_受注納期調整設定"/>
+          </Object>
+          <Object>
+            <id val="274"/>
+            <ItemIsn val="90"/>
+            <PublicName val="DI_出荷進捗表"/>
+          </Object>
+          <Object>
+            <id val="275"/>
+            <ItemIsn val="91"/>
+            <PublicName val="DI_出荷進捗表(掲示用)"/>
+          </Object>
+          <Object>
+            <id val="278"/>
+            <ItemIsn val="92"/>
+            <PublicName val="DI_出荷累計設定・一覧"/>
+          </Object>
+          <Object>
+            <id val="286"/>
+            <ItemIsn val="93"/>
+            <PublicName val="DI_月次得意先返品状況表"/>
+          </Object>
+          <Object>
+            <id val="292"/>
+            <ItemIsn val="94"/>
+            <PublicName val="DI_納入遅延一覧"/>
+          </Object>
+          <Object>
+            <id val="293"/>
+            <ItemIsn val="95"/>
+            <PublicName val="DI_納入遅延一覧表"/>
+          </Object>
+          <Object>
+            <id val="298"/>
+            <ItemIsn val="96"/>
+            <PublicName val="DI_出荷予定一覧"/>
+          </Object>
+          <Object>
+            <id val="320"/>
+            <ItemIsn val="97"/>
+            <PublicName val="DI_月別出荷実績一覧(材料別)"/>
+          </Object>
+          <Object>
+            <id val="323"/>
+            <ItemIsn val="98"/>
+            <PublicName val="DI_受注出荷明細表"/>
+          </Object>
+          <Object>
+            <id val="382"/>
+            <ItemIsn val="99"/>
+            <PublicName val="DI_鋳造工程進捗"/>
+          </Object>
+          <Object>
+            <id val="398"/>
+            <ItemIsn val="100"/>
+            <PublicName val="DI_不良返品伝票"/>
+          </Object>
+          <Object>
+            <id val="403"/>
+            <ItemIsn val="101"/>
+            <PublicName val="DI_保留決定一覧"/>
+          </Object>
+          <Object>
+            <id val="409"/>
+            <ItemIsn val="102"/>
+            <PublicName val="DI_不良統計一覧"/>
+          </Object>
+          <Object>
+            <id val="410"/>
+            <ItemIsn val="103"/>
+            <PublicName val="DI_不良統計表"/>
+          </Object>
+          <Object>
+            <id val="414"/>
+            <ItemIsn val="104"/>
+            <PublicName val="DI_担当別不良統計一覧"/>
+          </Object>
+          <Object>
+            <id val="415"/>
+            <ItemIsn val="105"/>
+            <PublicName val="DI_担当別不良統計表"/>
+          </Object>
+          <Object>
+            <id val="419"/>
+            <ItemIsn val="106"/>
+            <PublicName val="DI_月次不良データ作成"/>
+          </Object>
+          <Object>
+            <id val="421"/>
+            <ItemIsn val="107"/>
+            <PublicName val="DI_月別不良一覧"/>
+          </Object>
+          <Object>
+            <id val="426"/>
+            <ItemIsn val="108"/>
+            <PublicName val="DI_月別不良一覧表"/>
+          </Object>
+          <Object>
+            <id val="429"/>
+            <ItemIsn val="109"/>
+            <PublicName val="DI_不良状況一覧"/>
+          </Object>
+          <Object>
+            <id val="432"/>
+            <ItemIsn val="110"/>
+            <PublicName val="DI_不良状況一覧表"/>
+          </Object>
+          <Object>
+            <id val="445"/>
+            <ItemIsn val="111"/>
+            <PublicName val="DI_棚卸一覧表"/>
+          </Object>
+          <Object>
+            <id val="446"/>
+            <ItemIsn val="112"/>
+            <PublicName val="DI_棚卸一覧表(外注用)"/>
+          </Object>
+          <Object>
+            <id val="455"/>
+            <ItemIsn val="113"/>
+            <PublicName val="DI_棚卸一覧"/>
+          </Object>
+          <Object>
+            <id val="457"/>
+            <ItemIsn val="114"/>
+            <PublicName val="DI_棚卸実績登録"/>
+          </Object>
+          <Object>
+            <id val="458"/>
+            <ItemIsn val="115"/>
+            <PublicName val="DI_棚卸実績登録(外注用)"/>
+          </Object>
+          <Object>
+            <id val="459"/>
+            <ItemIsn val="116"/>
+            <PublicName val="DI_棚卸実績一覧"/>
+          </Object>
+          <Object>
+            <id val="460"/>
+            <ItemIsn val="117"/>
+            <PublicName val="DI_棚卸実績一覧表"/>
+          </Object>
+          <Object>
+            <id val="465"/>
+            <ItemIsn val="118"/>
+            <PublicName val="DI_棚卸在庫更新"/>
+          </Object>
+          <Object>
+            <id val="478"/>
+            <ItemIsn val="119"/>
+            <PublicName val="DI_月末在庫一覧"/>
+          </Object>
+          <Object>
+            <id val="482"/>
+            <ItemIsn val="120"/>
+            <PublicName val="DI_月末在庫一覧表"/>
+          </Object>
+          <Object>
+            <id val="501"/>
+            <ItemIsn val="121"/>
+            <PublicName val="DI_売上日計"/>
+          </Object>
+          <Object>
+            <id val="507"/>
+            <ItemIsn val="122"/>
+            <PublicName val="DI_売上状況"/>
+          </Object>
+          <Object>
+            <id val="509"/>
+            <ItemIsn val="123"/>
+            <PublicName val="DI_売上状況表"/>
+          </Object>
+          <Object>
+            <id val="512"/>
+            <ItemIsn val="124"/>
+            <PublicName val="DI_当月内示売上状況"/>
+          </Object>
+          <Object>
+            <id val="513"/>
+            <ItemIsn val="125"/>
+            <PublicName val="DI_当月内示売上状況表"/>
+          </Object>
+          <Object>
+            <id val="516"/>
+            <ItemIsn val="126"/>
+            <PublicName val="DI_非品目売上登録"/>
+          </Object>
+          <Object>
+            <id val="518"/>
+            <ItemIsn val="127"/>
+            <PublicName val="DI_非品目売上一覧"/>
+          </Object>
+          <Object>
+            <id val="521"/>
+            <ItemIsn val="128"/>
+            <PublicName val="DI_売上明細表"/>
+          </Object>
+          <Object>
+            <id val="532"/>
+            <ItemIsn val="129"/>
+            <PublicName val="DI_売上単価登録"/>
+          </Object>
+          <Object>
+            <id val="533"/>
+            <ItemIsn val="130"/>
+            <PublicName val="DI_売上単価計算"/>
+          </Object>
+          <Object>
+            <id val="534"/>
+            <ItemIsn val="131"/>
+            <PublicName val="DI_売上単価一覧"/>
+          </Object>
+          <Object>
+            <id val="535"/>
+            <ItemIsn val="132"/>
+            <PublicName val="DI_売上単価一覧表"/>
+          </Object>
+          <Object>
+            <id val="537"/>
+            <ItemIsn val="133"/>
+            <PublicName val="DI_売上単価履歴一覧"/>
+          </Object>
+          <Object>
+            <id val="538"/>
+            <ItemIsn val="134"/>
+            <PublicName val="DI_売上単価履歴一覧表"/>
+          </Object>
+          <Object>
+            <id val="541"/>
+            <ItemIsn val="135"/>
+            <PublicName val="DI_売上詳細単価登録"/>
+          </Object>
+          <Object>
+            <id val="542"/>
+            <ItemIsn val="136"/>
+            <PublicName val="DI_売上詳細単価一覧"/>
+          </Object>
+          <Object>
+            <id val="545"/>
+            <ItemIsn val="137"/>
+            <PublicName val="DI_ダイカスト月報"/>
+          </Object>
+          <Object>
+            <id val="552"/>
+            <ItemIsn val="138"/>
+            <PublicName val="DI_非品目支払登録"/>
+          </Object>
+          <Object>
+            <id val="553"/>
+            <ItemIsn val="139"/>
+            <PublicName val="DI_非品目支払修正"/>
+          </Object>
+          <Object>
+            <id val="554"/>
+            <ItemIsn val="140"/>
+            <PublicName val="DI_非品目支払一覧"/>
+          </Object>
+          <Object>
+            <id val="574"/>
+            <ItemIsn val="141"/>
+            <PublicName val="DI_支払一覧"/>
+          </Object>
+          <Object>
+            <id val="577"/>
+            <ItemIsn val="142"/>
+            <PublicName val="DI_支払単価登録"/>
+          </Object>
+          <Object>
+            <id val="579"/>
+            <ItemIsn val="143"/>
+            <PublicName val="DI_支払単価一覧"/>
+          </Object>
+          <Object>
+            <id val="580"/>
+            <ItemIsn val="144"/>
+            <PublicName val="DI_支払単価一覧表"/>
+          </Object>
+          <Object>
+            <id val="582"/>
+            <ItemIsn val="145"/>
+            <PublicName val="DI_支払単価履歴一覧"/>
+          </Object>
+          <Object>
+            <id val="583"/>
+            <ItemIsn val="146"/>
+            <PublicName val="DI_支払単価履歴一覧表"/>
+          </Object>
+          <Object>
+            <id val="585"/>
+            <ItemIsn val="147"/>
+            <PublicName val="DI_担当別支払単価一覧表"/>
+          </Object>
+          <Object>
+            <id val="587"/>
+            <ItemIsn val="148"/>
+            <PublicName val="DI_売上支払単価一覧"/>
+          </Object>
+          <Object>
+            <id val="588"/>
+            <ItemIsn val="149"/>
+            <PublicName val="DI_売上支払単価一覧表"/>
+          </Object>
+          <Object>
+            <id val="597"/>
+            <ItemIsn val="150"/>
+            <PublicName val="DI_支払状況一覧"/>
+          </Object>
+          <Object>
+            <id val="605"/>
+            <ItemIsn val="151"/>
+            <PublicName val="DI_支払状況一覧表"/>
+          </Object>
+          <Object>
+            <id val="609"/>
+            <ItemIsn val="152"/>
+            <PublicName val="DI_鋳造計画マスタ作成(亜鉛・ﾏｸ"/>
+          </Object>
+          <Object>
+            <id val="610"/>
+            <ItemIsn val="153"/>
+            <PublicName val="DI_鋳造計画マスタ一覧(亜鉛・ﾏｸ"/>
+          </Object>
+          <Object>
+            <id val="613"/>
+            <ItemIsn val="154"/>
+            <PublicName val="DI_鋳造予定作成(ｱﾙﾐ)"/>
+          </Object>
+          <Object>
+            <id val="629"/>
+            <ItemIsn val="155"/>
+            <PublicName val="DI_鋳造予定作成(亜鉛・ﾏｸﾞﾈ)"/>
+          </Object>
+          <Object>
+            <id val="643"/>
+            <ItemIsn val="156"/>
+            <PublicName val="DI_鋳造指示修正(亜鉛・ﾏｸﾞﾈ)"/>
+          </Object>
+          <Object>
+            <id val="646"/>
+            <ItemIsn val="157"/>
+            <PublicName val="DI_鋳造指示一覧"/>
+          </Object>
+          <Object>
+            <id val="652"/>
+            <ItemIsn val="158"/>
+            <PublicName val="DI_鋳造素材指示一覧"/>
+          </Object>
+          <Object>
+            <id val="655"/>
+            <ItemIsn val="159"/>
+            <PublicName val="DI_鋳造素材指示一覧表"/>
+          </Object>
+          <Object>
+            <id val="658"/>
+            <ItemIsn val="160"/>
+            <PublicName val="DI_鋳造計画書"/>
+          </Object>
+          <Object>
+            <id val="667"/>
+            <ItemIsn val="161"/>
+            <PublicName val="DI_鋳造発注残一覧"/>
+          </Object>
+          <Object>
+            <id val="671"/>
+            <ItemIsn val="162"/>
+            <PublicName val="DI_鋳造発注残一覧表"/>
+          </Object>
+          <Object>
+            <id val="674"/>
+            <ItemIsn val="163"/>
+            <PublicName val="DI_鋳造指示完了設定"/>
+          </Object>
+          <Object>
+            <id val="675"/>
+            <ItemIsn val="164"/>
+            <PublicName val="DI_鋳造指示完了取消"/>
+          </Object>
+          <Object>
+            <id val="676"/>
+            <ItemIsn val="165"/>
+            <PublicName val="DI_鋳造指示完了一覧"/>
+          </Object>
+          <Object>
+            <id val="682"/>
+            <ItemIsn val="166"/>
+            <PublicName val="DI_本日鋳造指示一覧"/>
+          </Object>
+          <Object>
+            <id val="688"/>
+            <ItemIsn val="167"/>
+            <PublicName val="DI_鋳造指示金額データ作成"/>
+          </Object>
+          <Object>
+            <id val="690"/>
+            <ItemIsn val="168"/>
+            <PublicName val="DI_鋳造指示金額一覧"/>
+          </Object>
+          <Object>
+            <id val="691"/>
+            <ItemIsn val="169"/>
+            <PublicName val="DI_鋳造指示金額一覧表"/>
+          </Object>
+          <Object>
+            <id val="693"/>
+            <ItemIsn val="170"/>
+            <PublicName val="DI_月別鋳造指示金額一覧"/>
+          </Object>
+          <Object>
+            <id val="694"/>
+            <ItemIsn val="171"/>
+            <PublicName val="DI_月別鋳造指示金額一覧表"/>
+          </Object>
+          <Object>
+            <id val="700"/>
+            <ItemIsn val="172"/>
+            <PublicName val="DI_外注工程予定実績一覧"/>
+          </Object>
+          <Object>
+            <id val="703"/>
+            <ItemIsn val="173"/>
+            <PublicName val="DI_社内工程予定一覧"/>
+          </Object>
+          <Object>
+            <id val="706"/>
+            <ItemIsn val="174"/>
+            <PublicName val="DI_鋳造指示実績重量一覧"/>
+          </Object>
+          <Object>
+            <id val="709"/>
+            <ItemIsn val="175"/>
+            <PublicName val="DI_本日鋳造予定作成"/>
+          </Object>
+          <Object>
+            <id val="710"/>
+            <ItemIsn val="176"/>
+            <PublicName val="DI_本日鋳造予定実績一覧"/>
+          </Object>
+          <Object>
+            <id val="719"/>
+            <ItemIsn val="177"/>
+            <PublicName val="DI_ショット数一覧"/>
+          </Object>
+          <Object>
+            <id val="721"/>
+            <ItemIsn val="178"/>
+            <PublicName val="DI_ショット実績状況"/>
+          </Object>
+          <Object>
+            <id val="730"/>
+            <ItemIsn val="179"/>
+            <PublicName val="DI_ショット数実績一覧(協力会社"/>
+          </Object>
+          <Object>
+            <id val="733"/>
+            <ItemIsn val="180"/>
+            <PublicName val="DI_鋳造不良登録"/>
+          </Object>
+          <Object>
+            <id val="736"/>
+            <ItemIsn val="181"/>
+            <PublicName val="DI_鋳造不良修正"/>
+          </Object>
+          <Object>
+            <id val="738"/>
+            <ItemIsn val="182"/>
+            <PublicName val="DI_鋳造不良一覧"/>
+          </Object>
+          <Object>
+            <id val="740"/>
+            <ItemIsn val="183"/>
+            <PublicName val="DI_鋳造不良統計"/>
+          </Object>
+          <Object>
+            <id val="741"/>
+            <ItemIsn val="184"/>
+            <PublicName val="DI_鋳造不良統計表"/>
+          </Object>
+          <Object>
+            <id val="745"/>
+            <ItemIsn val="185"/>
+            <PublicName val="DI_受注ｼｮｯﾄ数一覧"/>
+          </Object>
+          <Object>
+            <id val="746"/>
+            <ItemIsn val="186"/>
+            <PublicName val="DI_受注ｼｮｯﾄ数一覧表"/>
+          </Object>
+          <Object>
+            <id val="749"/>
+            <ItemIsn val="187"/>
+            <PublicName val="DI_受注計画ｼｮｯﾄ数一覧表(ｱﾙﾐ)"/>
+          </Object>
+          <Object>
+            <id val="752"/>
+            <ItemIsn val="188"/>
+            <PublicName val="DI_確定実績ｼｮｯﾄ数一覧表(ｱﾙﾐ)"/>
+          </Object>
+          <Object>
+            <id val="758"/>
+            <ItemIsn val="189"/>
+            <PublicName val="DI_受注計画ｼｮｯﾄ一覧(亜鉛･ﾏｸﾞﾈ)"/>
+          </Object>
+          <Object>
+            <id val="761"/>
+            <ItemIsn val="190"/>
+            <PublicName val="DI_確定実績ｼｮｯﾄ数一覧表(亜鉛･ﾏ"/>
+          </Object>
+          <Object>
+            <id val="764"/>
+            <ItemIsn val="191"/>
+            <PublicName val="DI_金型品目鋳造実績表"/>
+          </Object>
+          <Object>
+            <id val="767"/>
+            <ItemIsn val="192"/>
+            <PublicName val="DI_月別実績ショット一覧"/>
+          </Object>
+          <Object>
+            <id val="769"/>
+            <ItemIsn val="193"/>
+            <PublicName val="DI_月別実績ショット一覧表"/>
+          </Object>
+          <Object>
+            <id val="775"/>
+            <ItemIsn val="194"/>
+            <PublicName val="DI_鋳造実績指示比較一覧"/>
+          </Object>
+          <Object>
+            <id val="778"/>
+            <ItemIsn val="195"/>
+            <PublicName val="DI_鋳造実績指示比較一覧表"/>
+          </Object>
+          <Object>
+            <id val="793"/>
+            <ItemIsn val="196"/>
+            <PublicName val="SE_作業単価ﾏｽﾀ作成"/>
+          </Object>
+          <Object>
+            <id val="794"/>
+            <ItemIsn val="197"/>
+            <PublicName val="SE_作業単価ﾏｽﾀ一覧"/>
+          </Object>
+          <Object>
+            <id val="795"/>
+            <ItemIsn val="198"/>
+            <PublicName val="SE_作業単価ﾏｽﾀ一覧表"/>
+          </Object>
+          <Object>
+            <id val="798"/>
+            <ItemIsn val="199"/>
+            <PublicName val="SE_作業ﾏｽﾀ作成"/>
+          </Object>
+          <Object>
+            <id val="799"/>
+            <ItemIsn val="200"/>
+            <PublicName val="SE_作業ﾏｽﾀ一覧"/>
+          </Object>
+          <Object>
+            <id val="800"/>
+            <ItemIsn val="201"/>
+            <PublicName val="SE_作業ﾏｽﾀ一覧表"/>
+          </Object>
+          <Object>
+            <id val="803"/>
+            <ItemIsn val="202"/>
+            <PublicName val="SE_金型整備台帳作成"/>
+          </Object>
+          <Object>
+            <id val="805"/>
+            <ItemIsn val="203"/>
+            <PublicName val="SE_金型整備台帳一覧"/>
+          </Object>
+          <Object>
+            <id val="808"/>
+            <ItemIsn val="204"/>
+            <PublicName val="SE_金型整備台帳一覧表"/>
+          </Object>
+          <Object>
+            <id val="812"/>
+            <ItemIsn val="205"/>
+            <PublicName val="SE_生産技術作業日報一覧"/>
+          </Object>
+          <Object>
+            <id val="815"/>
+            <ItemIsn val="206"/>
+            <PublicName val="SE_作業日報集計"/>
+          </Object>
+          <Object>
+            <id val="823"/>
+            <ItemIsn val="207"/>
+            <PublicName val="SE_引渡品一覧"/>
+          </Object>
+          <Object>
+            <id val="825"/>
+            <ItemIsn val="208"/>
+            <PublicName val="SE_プレス治具製作登録"/>
+          </Object>
+          <Object>
+            <id val="826"/>
+            <ItemIsn val="209"/>
+            <PublicName val="SE_プレス治具製作修正"/>
+          </Object>
+          <Object>
+            <id val="828"/>
+            <ItemIsn val="210"/>
+            <PublicName val="SE_ﾌﾟﾚｽ治具発注一覧"/>
+          </Object>
+          <Object>
+            <id val="831"/>
+            <ItemIsn val="211"/>
+            <PublicName val="SE_その他注文書印刷"/>
+          </Object>
+          <Object>
+            <id val="836"/>
+            <ItemIsn val="212"/>
+            <PublicName val="SE_プレス治具注文書修正"/>
+          </Object>
+          <Object>
+            <id val="914"/>
+            <ItemIsn val="213"/>
+            <PublicName val="MO_材料情報作成"/>
+          </Object>
+          <Object>
+            <id val="915"/>
+            <ItemIsn val="214"/>
+            <PublicName val="MO_材料情報一覧"/>
+          </Object>
+          <Object>
+            <id val="918"/>
+            <ItemIsn val="215"/>
+            <PublicName val="MO_材料単価情報作成"/>
+          </Object>
+          <Object>
+            <id val="919"/>
+            <ItemIsn val="216"/>
+            <PublicName val="MO_材料単価情報一覧"/>
+          </Object>
+          <Object>
+            <id val="922"/>
+            <ItemIsn val="217"/>
+            <PublicName val="MO_工程情報作成"/>
+          </Object>
+          <Object>
+            <id val="923"/>
+            <ItemIsn val="218"/>
+            <PublicName val="MO_工程情報一覧"/>
+          </Object>
+          <Object>
+            <id val="926"/>
+            <ItemIsn val="219"/>
+            <PublicName val="MO_成形機種別情報作成"/>
+          </Object>
+          <Object>
+            <id val="927"/>
+            <ItemIsn val="220"/>
+            <PublicName val="MO_成形機種別情報一覧"/>
+          </Object>
+          <Object>
+            <id val="930"/>
+            <ItemIsn val="221"/>
+            <PublicName val="MO_不良種類情報作成"/>
+          </Object>
+          <Object>
+            <id val="931"/>
+            <ItemIsn val="222"/>
+            <PublicName val="MO_不良種類情報一覧"/>
+          </Object>
+          <Object>
+            <id val="934"/>
+            <ItemIsn val="223"/>
+            <PublicName val="MO_品目情報作成"/>
+          </Object>
+          <Object>
+            <id val="938"/>
+            <ItemIsn val="224"/>
+            <PublicName val="MO_品目情報一覧"/>
+          </Object>
+          <Object>
+            <id val="940"/>
+            <ItemIsn val="225"/>
+            <PublicName val="IP_モルダロイ品目番号検索"/>
+          </Object>
+          <Object>
+            <id val="943"/>
+            <ItemIsn val="226"/>
+            <PublicName val="MO_工程手順情報作成"/>
+          </Object>
+          <Object>
+            <id val="944"/>
+            <ItemIsn val="227"/>
+            <PublicName val="MO_工程手順情報一覧"/>
+          </Object>
+          <Object>
+            <id val="947"/>
+            <ItemIsn val="228"/>
+            <PublicName val="MO_金型受注成形情報作成"/>
+          </Object>
+          <Object>
+            <id val="948"/>
+            <ItemIsn val="229"/>
+            <PublicName val="MO_金型受注成形情報一覧"/>
+          </Object>
+          <Object>
+            <id val="951"/>
+            <ItemIsn val="230"/>
+            <PublicName val="MO_共通製品一覧"/>
+          </Object>
+          <Object>
+            <id val="958"/>
+            <ItemIsn val="231"/>
+            <PublicName val="MO_受注登録"/>
+          </Object>
+          <Object>
+            <id val="960"/>
+            <ItemIsn val="232"/>
+            <PublicName val="MO_受注修正"/>
+          </Object>
+          <Object>
+            <id val="963"/>
+            <ItemIsn val="233"/>
+            <PublicName val="MO_受注一覧"/>
+          </Object>
+          <Object>
+            <id val="964"/>
+            <ItemIsn val="234"/>
+            <PublicName val="MO_受注残一覧"/>
+          </Object>
+          <Object>
+            <id val="965"/>
+            <ItemIsn val="235"/>
+            <PublicName val="MO_品目別受注残一覧"/>
+          </Object>
+          <Object>
+            <id val="968"/>
+            <ItemIsn val="236"/>
+            <PublicName val="MO_受注残状況"/>
+          </Object>
+          <Object>
+            <id val="974"/>
+            <ItemIsn val="237"/>
+            <PublicName val="MO_月次受注実績一覧"/>
+          </Object>
+          <Object>
+            <id val="977"/>
+            <ItemIsn val="238"/>
+            <PublicName val="MO_受注在庫比較一覧"/>
+          </Object>
+          <Object>
+            <id val="978"/>
+            <ItemIsn val="239"/>
+            <PublicName val="MO_受注在庫比較一覧表"/>
+          </Object>
+          <Object>
+            <id val="1013"/>
+            <ItemIsn val="240"/>
+            <PublicName val="MO_月次出荷実績一覧"/>
+          </Object>
+          <Object>
+            <id val="1017"/>
+            <ItemIsn val="241"/>
+            <PublicName val="MO_標準納品書"/>
+          </Object>
+          <Object>
+            <id val="1018"/>
+            <ItemIsn val="242"/>
+            <PublicName val="MO_標準納品書再印刷"/>
+          </Object>
+          <Object>
+            <id val="1019"/>
+            <ItemIsn val="243"/>
+            <PublicName val="MO_納品書再発行"/>
+          </Object>
+          <Object>
+            <id val="1021"/>
+            <ItemIsn val="244"/>
+            <PublicName val="MO_納品書削除"/>
+          </Object>
+          <Object>
+            <id val="1023"/>
+            <ItemIsn val="245"/>
+            <PublicName val="MO_標準納品書(トミー用)"/>
+          </Object>
+          <Object>
+            <id val="1024"/>
+            <ItemIsn val="246"/>
+            <PublicName val="MO_標準納品書再印刷(トミー用)"/>
+          </Object>
+          <Object>
+            <id val="1025"/>
+            <ItemIsn val="247"/>
+            <PublicName val="MO_納品書削除(トミー用)"/>
+          </Object>
+          <Object>
+            <id val="1077"/>
+            <ItemIsn val="248"/>
+            <PublicName val="MO_保留決定一覧"/>
+          </Object>
+          <Object>
+            <id val="1089"/>
+            <ItemIsn val="249"/>
+            <PublicName val="MO_品目不良統計一覧"/>
+          </Object>
+          <Object>
+            <id val="1093"/>
+            <ItemIsn val="250"/>
+            <PublicName val="MO_品目不良統計一覧表"/>
+          </Object>
+          <Object>
+            <id val="1097"/>
+            <ItemIsn val="251"/>
+            <PublicName val="MO_月次不良データ作成"/>
+          </Object>
+          <Object>
+            <id val="1104"/>
+            <ItemIsn val="252"/>
+            <PublicName val="MO_歩留一覧表"/>
+          </Object>
+          <Object>
+            <id val="1108"/>
+            <ItemIsn val="253"/>
+            <PublicName val="MO_品目不良日計一覧"/>
+          </Object>
+          <Object>
+            <id val="1110"/>
+            <ItemIsn val="254"/>
+            <PublicName val="MO_品目不良日計一覧表"/>
+          </Object>
+          <Object>
+            <id val="1129"/>
+            <ItemIsn val="255"/>
+            <PublicName val="MO_月次成形不良データ作成"/>
+          </Object>
+          <Object>
+            <id val="1139"/>
+            <ItemIsn val="256"/>
+            <PublicName val="MO_棚卸一覧表"/>
+          </Object>
+          <Object>
+            <id val="1140"/>
+            <ItemIsn val="257"/>
+            <PublicName val="MO_棚卸一覧表(外注用)"/>
+          </Object>
+          <Object>
+            <id val="1148"/>
+            <ItemIsn val="258"/>
+            <PublicName val="MO_棚卸一覧"/>
+          </Object>
+          <Object>
+            <id val="1150"/>
+            <ItemIsn val="259"/>
+            <PublicName val="MO_棚卸実績登録"/>
+          </Object>
+          <Object>
+            <id val="1151"/>
+            <ItemIsn val="260"/>
+            <PublicName val="MO_棚卸実績登録(外注用)"/>
+          </Object>
+          <Object>
+            <id val="1152"/>
+            <ItemIsn val="261"/>
+            <PublicName val="MO_棚卸実績一覧"/>
+          </Object>
+          <Object>
+            <id val="1165"/>
+            <ItemIsn val="262"/>
+            <PublicName val="MO_在庫変動一覧"/>
+          </Object>
+          <Object>
+            <id val="1170"/>
+            <ItemIsn val="263"/>
+            <PublicName val="MO_売上日計"/>
+          </Object>
+          <Object>
+            <id val="1173"/>
+            <ItemIsn val="264"/>
+            <PublicName val="MO_売上状況"/>
+          </Object>
+          <Object>
+            <id val="1179"/>
+            <ItemIsn val="265"/>
+            <PublicName val="MO_非品目売上一覧"/>
+          </Object>
+          <Object>
+            <id val="1182"/>
+            <ItemIsn val="266"/>
+            <PublicName val="MO_売上明細表"/>
+          </Object>
+          <Object>
+            <id val="1188"/>
+            <ItemIsn val="267"/>
+            <PublicName val="MO_売上一覧"/>
+          </Object>
+          <Object>
+            <id val="1191"/>
+            <ItemIsn val="268"/>
+            <PublicName val="MO_売上単価登録"/>
+          </Object>
+          <Object>
+            <id val="1193"/>
+            <ItemIsn val="269"/>
+            <PublicName val="MO_売上単価一覧"/>
+          </Object>
+          <Object>
+            <id val="1194"/>
+            <ItemIsn val="270"/>
+            <PublicName val="MO_売上単価一覧表"/>
+          </Object>
+          <Object>
+            <id val="1196"/>
+            <ItemIsn val="271"/>
+            <PublicName val="MO_売上単価履歴一覧"/>
+          </Object>
+          <Object>
+            <id val="1197"/>
+            <ItemIsn val="272"/>
+            <PublicName val="MO_売上単価履歴一覧表"/>
+          </Object>
+          <Object>
+            <id val="1204"/>
+            <ItemIsn val="273"/>
+            <PublicName val="MO_非品目支払登録"/>
+          </Object>
+          <Object>
+            <id val="1205"/>
+            <ItemIsn val="274"/>
+            <PublicName val="MO_非品目支払修正"/>
+          </Object>
+          <Object>
+            <id val="1206"/>
+            <ItemIsn val="275"/>
+            <PublicName val="MO_非品目支払一覧"/>
+          </Object>
+          <Object>
+            <id val="1209"/>
+            <ItemIsn val="276"/>
+            <PublicName val="MO_支払明細表"/>
+          </Object>
+          <Object>
+            <id val="1217"/>
+            <ItemIsn val="277"/>
+            <PublicName val="MO_支払一覧"/>
+          </Object>
+          <Object>
+            <id val="1220"/>
+            <ItemIsn val="278"/>
+            <PublicName val="MO_支払単価登録"/>
+          </Object>
+          <Object>
+            <id val="1221"/>
+            <ItemIsn val="279"/>
+            <PublicName val="MO_支払単価一覧"/>
+          </Object>
+          <Object>
+            <id val="1222"/>
+            <ItemIsn val="280"/>
+            <PublicName val="MO_支払単価一覧表"/>
+          </Object>
+          <Object>
+            <id val="1225"/>
+            <ItemIsn val="281"/>
+            <PublicName val="MO_内職支払単価登録"/>
+          </Object>
+          <Object>
+            <id val="1226"/>
+            <ItemIsn val="282"/>
+            <PublicName val="MO_内職支払単価一覧"/>
+          </Object>
+          <Object>
+            <id val="1227"/>
+            <ItemIsn val="283"/>
+            <PublicName val="MO_内職支払単価一覧表"/>
+          </Object>
+          <Object>
+            <id val="1232"/>
+            <ItemIsn val="284"/>
+            <PublicName val="MO_材料入出庫登録"/>
+          </Object>
+          <Object>
+            <id val="1233"/>
+            <ItemIsn val="285"/>
+            <PublicName val="MO_材料入出庫修正"/>
+          </Object>
+          <Object>
+            <id val="1236"/>
+            <ItemIsn val="286"/>
+            <PublicName val="MO_材料入出庫一覧"/>
+          </Object>
+          <Object>
+            <id val="1238"/>
+            <ItemIsn val="287"/>
+            <PublicName val="MO_材料在庫一覧"/>
+          </Object>
+          <Object>
+            <id val="1239"/>
+            <ItemIsn val="288"/>
+            <PublicName val="MO_材料在庫一覧表"/>
+          </Object>
+          <Object>
+            <id val="1241"/>
+            <ItemIsn val="289"/>
+            <PublicName val="MO_材料在庫変更"/>
+          </Object>
+          <Object>
+            <id val="1243"/>
+            <ItemIsn val="290"/>
+            <PublicName val="MO_月末材料在庫作成"/>
+          </Object>
+          <Object>
+            <id val="1244"/>
+            <ItemIsn val="291"/>
+            <PublicName val="MO_月末材料在庫一覧"/>
+          </Object>
+          <Object>
+            <id val="1245"/>
+            <ItemIsn val="292"/>
+            <PublicName val="MO_月末材料在庫一覧表"/>
+          </Object>
+          <Object>
+            <id val="1247"/>
+            <ItemIsn val="293"/>
+            <PublicName val="MO_材料在庫更新"/>
+          </Object>
+          <Object>
+            <id val="1249"/>
+            <ItemIsn val="294"/>
+            <PublicName val="MO_使用材料実績一覧表"/>
+          </Object>
+          <Object>
+            <id val="1251"/>
+            <ItemIsn val="295"/>
+            <PublicName val="MO_材料受入表"/>
+          </Object>
+          <Object>
+            <id val="1253"/>
+            <ItemIsn val="296"/>
+            <PublicName val="MO_月次実績ｼｮｯﾄ一覧"/>
+          </Object>
+          <Object>
+            <id val="1257"/>
+            <ItemIsn val="297"/>
+            <PublicName val="MO_ショット数実績登録"/>
+          </Object>
+          <Object>
+            <id val="1258"/>
+            <ItemIsn val="298"/>
+            <PublicName val="MO_ショット数実績修正"/>
+          </Object>
+          <Object>
+            <id val="1259"/>
+            <ItemIsn val="299"/>
+            <PublicName val="MO_ショット数実績一覧"/>
+          </Object>
+          <Object>
+            <id val="1266"/>
+            <ItemIsn val="300"/>
+            <PublicName val="MO_金型売上登録"/>
+          </Object>
+          <Object>
+            <id val="1267"/>
+            <ItemIsn val="301"/>
+            <PublicName val="MO_金型売上修正"/>
+          </Object>
+          <Object>
+            <id val="1268"/>
+            <ItemIsn val="302"/>
+            <PublicName val="MO_金型売上一覧"/>
+          </Object>
+          <Object>
+            <id val="1271"/>
+            <ItemIsn val="303"/>
+            <PublicName val="MO_金型支払登録"/>
+          </Object>
+          <Object>
+            <id val="1272"/>
+            <ItemIsn val="304"/>
+            <PublicName val="MO_金型支払修正"/>
+          </Object>
+          <Object>
+            <id val="1273"/>
+            <ItemIsn val="305"/>
+            <PublicName val="MO_金型支払一覧"/>
+          </Object>
+          <Object>
+            <id val="1276"/>
+            <ItemIsn val="306"/>
+            <PublicName val="MO_金型業績データ作成"/>
+          </Object>
+          <Object>
+            <id val="1283"/>
+            <ItemIsn val="307"/>
+            <PublicName val="MO_金型別業績一覧"/>
+          </Object>
+          <Object>
+            <id val="1286"/>
+            <ItemIsn val="308"/>
+            <PublicName val="MO_金型別業績一覧表"/>
+          </Object>
+          <Object>
+            <id val="1289"/>
+            <ItemIsn val="309"/>
+            <PublicName val="MO_未検収一覧"/>
+          </Object>
+          <Object>
+            <id val="1292"/>
+            <ItemIsn val="310"/>
+            <PublicName val="MO_未検収一覧表"/>
+          </Object>
+          <Object>
+            <id val="1304"/>
+            <ItemIsn val="311"/>
+            <PublicName val="MO_作業コードマスタ一覧"/>
+          </Object>
+          <Object>
+            <id val="1314"/>
+            <ItemIsn val="312"/>
+            <PublicName val="MO_作業日報一覧"/>
+          </Object>
+          <Object>
+            <id val="1317"/>
+            <ItemIsn val="313"/>
+            <PublicName val="MO_原価管理経費データ作成"/>
+          </Object>
+          <Object>
+            <id val="1318"/>
+            <ItemIsn val="314"/>
+            <PublicName val="MO_原価管理経費データ一覧"/>
+          </Object>
+          <Object>
+            <id val="1319"/>
+            <ItemIsn val="315"/>
+            <PublicName val="MO_原価管理経費データ一覧表"/>
+          </Object>
+          <Object>
+            <id val="1321"/>
+            <ItemIsn val="316"/>
+            <PublicName val="MO_実績原価計算"/>
+          </Object>
+          <Object>
+            <id val="1324"/>
+            <ItemIsn val="317"/>
+            <PublicName val="MO_原価管理実績原価一覧"/>
+          </Object>
+          <Object>
+            <id val="1326"/>
+            <ItemIsn val="318"/>
+            <PublicName val="MO_指定月間品目実績原価一覧"/>
+          </Object>
+          <Object>
+            <id val="1328"/>
+            <ItemIsn val="319"/>
+            <PublicName val="MO_作業コード毎品目一覧"/>
+          </Object>
+          <Object>
+            <id val="1330"/>
+            <ItemIsn val="320"/>
+            <PublicName val="MO_品目別原価一覧"/>
+          </Object>
+          <Object>
+            <id val="1333"/>
+            <ItemIsn val="321"/>
+            <PublicName val="MO_原価管理標準原価登録"/>
+          </Object>
+          <Object>
+            <id val="1334"/>
+            <ItemIsn val="322"/>
+            <PublicName val="MO_原価管理標準原価一覧"/>
+          </Object>
+          <Object>
+            <id val="1336"/>
+            <ItemIsn val="323"/>
+            <PublicName val="MO_原価差異一覧"/>
+          </Object>
+          <Object>
+            <id val="1347"/>
+            <ItemIsn val="324"/>
+            <PublicName val="ZE_売上集計一覧表"/>
+          </Object>
+          <Object>
+            <id val="1354"/>
+            <ItemIsn val="325"/>
+            <PublicName val="ZE_売上集計一覧"/>
+          </Object>
+          <Object>
+            <id val="1364"/>
+            <ItemIsn val="326"/>
+            <PublicName val="ZE_月別売上一覧"/>
+          </Object>
+          <Object>
+            <id val="1367"/>
+            <ItemIsn val="327"/>
+            <PublicName val="ZE_月別売上一覧表"/>
+          </Object>
+          <Object>
+            <id val="1373"/>
+            <ItemIsn val="328"/>
+            <PublicName val="ZE_請求書一覧表"/>
+          </Object>
+          <Object>
+            <id val="1381"/>
+            <ItemIsn val="329"/>
+            <PublicName val="ZE_売掛金補助簿"/>
+          </Object>
+          <Object>
+            <id val="1386"/>
+            <ItemIsn val="330"/>
+            <PublicName val="ZE_売上相殺作成"/>
+          </Object>
+          <Object>
+            <id val="1387"/>
+            <ItemIsn val="331"/>
+            <PublicName val="ZE_売上相殺一覧"/>
+          </Object>
+          <Object>
+            <id val="1396"/>
+            <ItemIsn val="332"/>
+            <PublicName val="ZE_売上残未検収一覧"/>
+          </Object>
+          <Object>
+            <id val="1399"/>
+            <ItemIsn val="333"/>
+            <PublicName val="ZE_得意先検収登録"/>
+          </Object>
+          <Object>
+            <id val="1400"/>
+            <ItemIsn val="334"/>
+            <PublicName val="ZE_得意先検収一覧"/>
+          </Object>
+          <Object>
+            <id val="1403"/>
+            <ItemIsn val="335"/>
+            <PublicName val="ZE_検収差額一覧"/>
+          </Object>
+          <Object>
+            <id val="1408"/>
+            <ItemIsn val="336"/>
+            <PublicName val="ZE_検収入金対比一覧"/>
+          </Object>
+          <Object>
+            <id val="1411"/>
+            <ItemIsn val="337"/>
+            <PublicName val="ZE_注文番号順売上明細表"/>
+          </Object>
+          <Object>
+            <id val="1416"/>
+            <ItemIsn val="338"/>
+            <PublicName val="ZE_締日売上残金額一覧表"/>
+          </Object>
+          <Object>
+            <id val="1419"/>
+            <ItemIsn val="339"/>
+            <PublicName val="ZE_金型検収設定"/>
+          </Object>
+          <Object>
+            <id val="1426"/>
+            <ItemIsn val="340"/>
+            <PublicName val="ZE_ｹｰﾋﾝEDI検収購入区分取得"/>
+          </Object>
+          <Object>
+            <id val="1428"/>
+            <ItemIsn val="341"/>
+            <PublicName val="ZE_ｹｰﾋﾝEDI検収購入区分変更"/>
+          </Object>
+          <Object>
+            <id val="1429"/>
+            <ItemIsn val="342"/>
+            <PublicName val="ZE_ｹｰﾋﾝEDI検収明細チェック"/>
+          </Object>
+          <Object>
+            <id val="1430"/>
+            <ItemIsn val="343"/>
+            <PublicName val="ZE_ｹｰﾋﾝEDI検収返品相殺取得"/>
+          </Object>
+          <Object>
+            <id val="1431"/>
+            <ItemIsn val="344"/>
+            <PublicName val="ZE_ｹｰﾋﾝEDI検収返品相殺設定"/>
+          </Object>
+          <Object>
+            <id val="1433"/>
+            <ItemIsn val="345"/>
+            <PublicName val="ZE_ｹｰﾋﾝEDI検収返品相殺一覧表"/>
+          </Object>
+          <Object>
+            <id val="1436"/>
+            <ItemIsn val="346"/>
+            <PublicName val="ZE_全社売上明細表"/>
+          </Object>
+          <Object>
+            <id val="1439"/>
+            <ItemIsn val="347"/>
+            <PublicName val="ZE_得意先不課税個別情報作成"/>
+          </Object>
+          <Object>
+            <id val="1441"/>
+            <ItemIsn val="348"/>
+            <PublicName val="SA_部番順順売上明細表"/>
+          </Object>
+          <Object>
+            <id val="1450"/>
+            <ItemIsn val="349"/>
+            <PublicName val="DI_社内振替明細表"/>
+          </Object>
+          <Object>
+            <id val="1457"/>
+            <ItemIsn val="350"/>
+            <PublicName val="ZE_社内振替一覧"/>
+          </Object>
+          <Object>
+            <id val="1462"/>
+            <ItemIsn val="351"/>
+            <PublicName val="ZE_社内振替追加登録"/>
+          </Object>
+          <Object>
+            <id val="1468"/>
+            <ItemIsn val="352"/>
+            <PublicName val="ZE_社内振替一括作成"/>
+          </Object>
+          <Object>
+            <id val="1471"/>
+            <ItemIsn val="353"/>
+            <PublicName val="ZE_得意先売上留意事項"/>
+          </Object>
+          <Object>
+            <id val="1476"/>
+            <ItemIsn val="354"/>
+            <PublicName val="ZE_支払ロック設定／解除処理"/>
+          </Object>
+          <Object>
+            <id val="1477"/>
+            <ItemIsn val="355"/>
+            <PublicName val="ZE_購買ロック設定／解除処理"/>
+          </Object>
+          <Object>
+            <id val="1482"/>
+            <ItemIsn val="356"/>
+            <PublicName val="ZE_外注費集計一覧表"/>
+          </Object>
+          <Object>
+            <id val="1491"/>
+            <ItemIsn val="357"/>
+            <PublicName val="ZE_外注費集計一覧"/>
+          </Object>
+          <Object>
+            <id val="1494"/>
+            <ItemIsn val="358"/>
+            <PublicName val="ZE_取引先支払作成"/>
+          </Object>
+          <Object>
+            <id val="1502"/>
+            <ItemIsn val="359"/>
+            <PublicName val="ZE_取引先支払一覧"/>
+          </Object>
+          <Object>
+            <id val="1505"/>
+            <ItemIsn val="360"/>
+            <PublicName val="ZE_月末支払一覧表"/>
+          </Object>
+          <Object>
+            <id val="1508"/>
+            <ItemIsn val="361"/>
+            <PublicName val="ZE_仕入帳"/>
+          </Object>
+          <Object>
+            <id val="1522"/>
+            <ItemIsn val="362"/>
+            <PublicName val="ZE_銀行振込データ作成"/>
+          </Object>
+          <Object>
+            <id val="1523"/>
+            <ItemIsn val="363"/>
+            <PublicName val="ZE_銀行振込データ一覧"/>
+          </Object>
+          <Object>
+            <id val="1524"/>
+            <ItemIsn val="364"/>
+            <PublicName val="ZE_銀行振込データ一覧表"/>
+          </Object>
+          <Object>
+            <id val="1526"/>
+            <ItemIsn val="365"/>
+            <PublicName val="ZE_銀行振込金額変更"/>
+          </Object>
+          <Object>
+            <id val="1528"/>
+            <ItemIsn val="366"/>
+            <PublicName val="ZE_銀行振込データＦＤ作成"/>
+          </Object>
+          <Object>
+            <id val="1532"/>
+            <ItemIsn val="367"/>
+            <PublicName val="ZE_科目別振込金額作成"/>
+          </Object>
+          <Object>
+            <id val="1533"/>
+            <ItemIsn val="368"/>
+            <PublicName val="ZE_科目別振込金額一覧"/>
+          </Object>
+          <Object>
+            <id val="1534"/>
+            <ItemIsn val="369"/>
+            <PublicName val="ZE_科目別振込金額一覧表"/>
+          </Object>
+          <Object>
+            <id val="1537"/>
+            <ItemIsn val="370"/>
+            <PublicName val="ZE_相殺分類情報作成"/>
+          </Object>
+          <Object>
+            <id val="1538"/>
+            <ItemIsn val="371"/>
+            <PublicName val="ZE_相殺分類情報一覧"/>
+          </Object>
+          <Object>
+            <id val="1542"/>
+            <ItemIsn val="372"/>
+            <PublicName val="ZE_相殺額登録"/>
+          </Object>
+          <Object>
+            <id val="1543"/>
+            <ItemIsn val="373"/>
+            <PublicName val="ZE_相殺額一覧"/>
+          </Object>
+          <Object>
+            <id val="1547"/>
+            <ItemIsn val="374"/>
+            <PublicName val="ZE_固定相殺額登録"/>
+          </Object>
+          <Object>
+            <id val="1548"/>
+            <ItemIsn val="375"/>
+            <PublicName val="ZE_固定相殺額取込"/>
+          </Object>
+          <Object>
+            <id val="1554"/>
+            <ItemIsn val="376"/>
+            <PublicName val="ZE_全社支払明細表"/>
+          </Object>
+          <Object>
+            <id val="1563"/>
+            <ItemIsn val="377"/>
+            <PublicName val="ZE_１０日払銀行振込ﾃﾞｰﾀ作成"/>
+          </Object>
+          <Object>
+            <id val="1564"/>
+            <ItemIsn val="378"/>
+            <PublicName val="ZE_１０日払銀行振込ﾃﾞｰﾀ一覧"/>
+          </Object>
+          <Object>
+            <id val="1565"/>
+            <ItemIsn val="379"/>
+            <PublicName val="ZE_１０日払銀行振込ﾃﾞｰﾀ一覧表"/>
+          </Object>
+          <Object>
+            <id val="1567"/>
+            <ItemIsn val="380"/>
+            <PublicName val="ZE_１０日払振込金額変更"/>
+          </Object>
+          <Object>
+            <id val="1569"/>
+            <ItemIsn val="381"/>
+            <PublicName val="ZE_１０日払銀行振込ﾃﾞｰﾀＦＤ"/>
+          </Object>
+          <Object>
+            <id val="1593"/>
+            <ItemIsn val="382"/>
+            <PublicName val="KO_単位情報作成"/>
+          </Object>
+          <Object>
+            <id val="1594"/>
+            <ItemIsn val="383"/>
+            <PublicName val="KO_単位情報一覧"/>
+          </Object>
+          <Object>
+            <id val="1597"/>
+            <ItemIsn val="384"/>
+            <PublicName val="KO_分類情報作成"/>
+          </Object>
+          <Object>
+            <id val="1598"/>
+            <ItemIsn val="385"/>
+            <PublicName val="KO_分類情報一覧"/>
+          </Object>
+          <Object>
+            <id val="1601"/>
+            <ItemIsn val="386"/>
+            <PublicName val="KO_分類内訳情報作成"/>
+          </Object>
+          <Object>
+            <id val="1602"/>
+            <ItemIsn val="387"/>
+            <PublicName val="KO_分類内訳情報一覧"/>
+          </Object>
+          <Object>
+            <id val="1605"/>
+            <ItemIsn val="388"/>
+            <PublicName val="KO_鋳造消耗品情報作成"/>
+          </Object>
+          <Object>
+            <id val="1606"/>
+            <ItemIsn val="389"/>
+            <PublicName val="KO_鋳造消耗品情報一覧"/>
+          </Object>
+          <Object>
+            <id val="1613"/>
+            <ItemIsn val="390"/>
+            <PublicName val="KO_納品書一覧"/>
+          </Object>
+          <Object>
+            <id val="1614"/>
+            <ItemIsn val="391"/>
+            <PublicName val="KO_納品書一覧表"/>
+          </Object>
+          <Object>
+            <id val="1618"/>
+            <ItemIsn val="392"/>
+            <PublicName val="KO_取引先仕入金額変更"/>
+          </Object>
+          <Object>
+            <id val="1619"/>
+            <ItemIsn val="393"/>
+            <PublicName val="KO_分類別仕入金額一覧"/>
+          </Object>
+          <Object>
+            <id val="1623"/>
+            <ItemIsn val="394"/>
+            <PublicName val="KO_部門別明細表"/>
+          </Object>
+          <Object>
+            <id val="1627"/>
+            <ItemIsn val="395"/>
+            <PublicName val="KO_取引先別明細表"/>
+          </Object>
+          <Object>
+            <id val="1630"/>
+            <ItemIsn val="396"/>
+            <PublicName val="KO_原材料仕入一覧"/>
+          </Object>
+          <Object>
+            <id val="1631"/>
+            <ItemIsn val="397"/>
+            <PublicName val="KO_原材料仕入一覧表"/>
+          </Object>
+          <Object>
+            <id val="1717"/>
+            <ItemIsn val="398"/>
+            <PublicName val="KA_基本計画標準作業日数情報作"/>
+          </Object>
+          <Object>
+            <id val="1718"/>
+            <ItemIsn val="399"/>
+            <PublicName val="KA_基本計画標準作業日数情報一"/>
+          </Object>
+          <Object>
+            <id val="1724"/>
+            <ItemIsn val="400"/>
+            <PublicName val="KA_金型作業単価情報一覧"/>
+          </Object>
+          <Object>
+            <id val="1726"/>
+            <ItemIsn val="401"/>
+            <PublicName val="KAN_旋盤作業単価マスタ作成"/>
+          </Object>
+          <Object>
+            <id val="1727"/>
+            <ItemIsn val="402"/>
+            <PublicName val="KAN_旋盤作業単価マスタ一覧"/>
+          </Object>
+          <Object>
+            <id val="1737"/>
+            <ItemIsn val="403"/>
+            <PublicName val="KA_金型基本計画書作成"/>
+          </Object>
+          <Object>
+            <id val="1741"/>
+            <ItemIsn val="404"/>
+            <PublicName val="KA_作業日報一覧"/>
+          </Object>
+          <Object>
+            <id val="1743"/>
+            <ItemIsn val="405"/>
+            <PublicName val="KA_金型売上登録"/>
+          </Object>
+          <Object>
+            <id val="1745"/>
+            <ItemIsn val="406"/>
+            <PublicName val="KA_金型売上一覧"/>
+          </Object>
+          <Object>
+            <id val="1747"/>
+            <ItemIsn val="407"/>
+            <PublicName val="KA_プレス治具売上登録"/>
+          </Object>
+          <Object>
+            <id val="1749"/>
+            <ItemIsn val="408"/>
+            <PublicName val="KA_プレス治具売上一覧"/>
+          </Object>
+          <Object>
+            <id val="1754"/>
+            <ItemIsn val="409"/>
+            <PublicName val="KA_売上明細表"/>
+          </Object>
+          <Object>
+            <id val="1761"/>
+            <ItemIsn val="410"/>
+            <PublicName val="KA_売上一覧"/>
+          </Object>
+          <Object>
+            <id val="1763"/>
+            <ItemIsn val="411"/>
+            <PublicName val="KA_金型受入登録"/>
+          </Object>
+          <Object>
+            <id val="1764"/>
+            <ItemIsn val="412"/>
+            <PublicName val="KA_金型受入修正"/>
+          </Object>
+          <Object>
+            <id val="1765"/>
+            <ItemIsn val="413"/>
+            <PublicName val="KA_金型受入一覧"/>
+          </Object>
+          <Object>
+            <id val="1767"/>
+            <ItemIsn val="414"/>
+            <PublicName val="KA_試作その他受入登録"/>
+          </Object>
+          <Object>
+            <id val="1768"/>
+            <ItemIsn val="415"/>
+            <PublicName val="KA_試作その他受入修正"/>
+          </Object>
+          <Object>
+            <id val="1769"/>
+            <ItemIsn val="416"/>
+            <PublicName val="KA_試作その他受入一覧"/>
+          </Object>
+          <Object>
+            <id val="1771"/>
+            <ItemIsn val="417"/>
+            <PublicName val="KA_支払明細表"/>
+          </Object>
+          <Object>
+            <id val="1782"/>
+            <ItemIsn val="418"/>
+            <PublicName val="KA_金型受注残一覧"/>
+          </Object>
+          <Object>
+            <id val="1784"/>
+            <ItemIsn val="419"/>
+            <PublicName val="KA_金型業績データ作成"/>
+          </Object>
+          <Object>
+            <id val="1791"/>
+            <ItemIsn val="420"/>
+            <PublicName val="KA_未検収一覧"/>
+          </Object>
+          <Object>
+            <id val="1794"/>
+            <ItemIsn val="421"/>
+            <PublicName val="KA_未検収一覧表"/>
+          </Object>
+          <Object>
+            <id val="1799"/>
+            <ItemIsn val="422"/>
+            <PublicName val="KA_償却金型社内振替明細表"/>
+          </Object>
+          <Object>
+            <id val="1822"/>
+            <ItemIsn val="423"/>
+            <PublicName val="KA_型メンテ作業管理台帳登録"/>
+          </Object>
+          <Object>
+            <id val="1823"/>
+            <ItemIsn val="424"/>
+            <PublicName val="KA_作業管理台帳修正"/>
+          </Object>
+          <Object>
+            <id val="1824"/>
+            <ItemIsn val="425"/>
+            <PublicName val="KA_作業管理台帳一覧"/>
+          </Object>
+          <Object>
+            <id val="1826"/>
+            <ItemIsn val="426"/>
+            <PublicName val="KA_作業完了設定"/>
+          </Object>
+          <Object>
+            <id val="1828"/>
+            <ItemIsn val="427"/>
+            <PublicName val="KA_金型治工具注文書印刷"/>
+          </Object>
+          <Object>
+            <id val="1829"/>
+            <ItemIsn val="428"/>
+            <PublicName val="KA_金型治工具注文書再印刷"/>
+          </Object>
+          <Object>
+            <id val="1832"/>
+            <ItemIsn val="429"/>
+            <PublicName val="KA_金型治工具注文書修正"/>
+          </Object>
+          <Object>
+            <id val="1835"/>
+            <ItemIsn val="430"/>
+            <PublicName val="KA_その他注文書印刷"/>
+          </Object>
+          <Object>
+            <id val="1837"/>
+            <ItemIsn val="431"/>
+            <PublicName val="KA_金型一覧"/>
+          </Object>
+          <Object>
+            <id val="1839"/>
+            <ItemIsn val="432"/>
+            <PublicName val="KA_製作担当別金型一覧"/>
+          </Object>
+          <Object>
+            <id val="1841"/>
+            <ItemIsn val="433"/>
+            <PublicName val="KA_金型別業績一覧"/>
+          </Object>
+          <Object>
+            <id val="1846"/>
+            <ItemIsn val="434"/>
+            <PublicName val="KA_金型経費内訳一覧"/>
+          </Object>
+          <Object>
+            <id val="1849"/>
+            <ItemIsn val="435"/>
+            <PublicName val="KA_型別集計一覧"/>
+          </Object>
+          <Object>
+            <id val="1852"/>
+            <ItemIsn val="436"/>
+            <PublicName val="ZE_金型検収残一覧"/>
+          </Object>
+          <Object>
+            <id val="1855"/>
+            <ItemIsn val="437"/>
+            <PublicName val="KA_未検収金型削除"/>
+          </Object>
+          <Object>
+            <id val="1859"/>
+            <ItemIsn val="438"/>
+            <PublicName val="KA_プレス治具振替明細表"/>
+          </Object>
+          <Object>
+            <id val="1862"/>
+            <ItemIsn val="439"/>
+            <PublicName val="KA_金型償却基本情報"/>
+          </Object>
+          <Object>
+            <id val="1863"/>
+            <ItemIsn val="440"/>
+            <PublicName val="KA_金型累計償却一覧"/>
+          </Object>
+          <Object>
+            <id val="1878"/>
+            <ItemIsn val="441"/>
+            <PublicName val="KA_材料情報作成"/>
+          </Object>
+          <Object>
+            <id val="1879"/>
+            <ItemIsn val="442"/>
+            <PublicName val="KA_材料情報一覧"/>
+          </Object>
+          <Object>
+            <id val="1881"/>
+            <ItemIsn val="443"/>
+            <PublicName val="KA_加工名称情報作成"/>
+          </Object>
+          <Object>
+            <id val="1882"/>
+            <ItemIsn val="444"/>
+            <PublicName val="KA_加工名称情報一覧"/>
+          </Object>
+          <Object>
+            <id val="1884"/>
+            <ItemIsn val="445"/>
+            <PublicName val="KA_機械名称情報作成"/>
+          </Object>
+          <Object>
+            <id val="1885"/>
+            <ItemIsn val="446"/>
+            <PublicName val="KA_機械名称情報一覧"/>
+          </Object>
+          <Object>
+            <id val="1887"/>
+            <ItemIsn val="447"/>
+            <PublicName val="KA_スクラップ重量情報作成"/>
+          </Object>
+          <Object>
+            <id val="1888"/>
+            <ItemIsn val="448"/>
+            <PublicName val="KA_段取情報作成"/>
+          </Object>
+          <Object>
+            <id val="1889"/>
+            <ItemIsn val="449"/>
+            <PublicName val="KA_鋳造費情報作成"/>
+          </Object>
+          <Object>
+            <id val="1890"/>
+            <ItemIsn val="450"/>
+            <PublicName val="KA_ゲート切断費情報作成"/>
+          </Object>
+          <Object>
+            <id val="1891"/>
+            <ItemIsn val="451"/>
+            <PublicName val="KA_ケーヒン運賃情報作成"/>
+          </Object>
+          <Object>
+            <id val="1892"/>
+            <ItemIsn val="452"/>
+            <PublicName val="KA_定数情報作成"/>
+          </Object>
+          <Object>
+            <id val="1894"/>
+            <ItemIsn val="453"/>
+            <PublicName val="KA_鋳造種別トン数情報作成"/>
+          </Object>
+          <Object>
+            <id val="1895"/>
+            <ItemIsn val="454"/>
+            <PublicName val="KA_鋳造種別トン数情報一覧"/>
+          </Object>
+          <Object>
+            <id val="1897"/>
+            <ItemIsn val="455"/>
+            <PublicName val="KA_ダイカスト見積書作成"/>
+          </Object>
+          <Object>
+            <id val="1900"/>
+            <ItemIsn val="456"/>
+            <PublicName val="KA_ダイカスト見積文書編集"/>
+          </Object>
+          <Object>
+            <id val="1902"/>
+            <ItemIsn val="457"/>
+            <PublicName val="KA_ケーヒンベース変動"/>
+          </Object>
+          <Object>
+            <id val="1903"/>
+            <ItemIsn val="458"/>
+            <PublicName val="KA_ケーヒンベース変動一覧"/>
+          </Object>
+          <Object>
+            <id val="1905"/>
+            <ItemIsn val="459"/>
+            <PublicName val="KA_東北ﾘｺｰﾍﾞｰｽ変動対応情報作成"/>
+          </Object>
+          <Object>
+            <id val="1907"/>
+            <ItemIsn val="460"/>
+            <PublicName val="KA_材料ベース変動計算"/>
+          </Object>
+          <Object>
+            <id val="1908"/>
+            <ItemIsn val="461"/>
+            <PublicName val="KA_材料ベース変動修正"/>
+          </Object>
+          <Object>
+            <id val="1909"/>
+            <ItemIsn val="462"/>
+            <PublicName val="KA_材料ベース変動一覧"/>
+          </Object>
+          <Object>
+            <id val="1910"/>
+            <ItemIsn val="463"/>
+            <PublicName val="KA_材料ベース重量変動計算"/>
+          </Object>
+          <Object>
+            <id val="1912"/>
+            <ItemIsn val="464"/>
+            <PublicName val="KA_東北リコーベース変動印刷"/>
+          </Object>
+          <Object>
+            <id val="1919"/>
+            <ItemIsn val="465"/>
+            <PublicName val="KA_トン数情報作成"/>
+          </Object>
+          <Object>
+            <id val="1920"/>
+            <ItemIsn val="466"/>
+            <PublicName val="KA_トン数情報一覧"/>
+          </Object>
+          <Object>
+            <id val="1950"/>
+            <ItemIsn val="467"/>
+            <PublicName val="MO_定数マスタ作成"/>
+          </Object>
+          <Object>
+            <id val="1960"/>
+            <ItemIsn val="468"/>
+            <PublicName val="ZE_月別売上ｸﾞﾗﾌ"/>
+          </Object>
+          <Object>
+            <id val="1970"/>
+            <ItemIsn val="469"/>
+            <PublicName val="DI_月別売上ｸﾞﾗﾌ"/>
+          </Object>
+          <Object>
+            <id val="1978"/>
+            <ItemIsn val="470"/>
+            <PublicName val="MO_月別売上ｸﾞﾗﾌ"/>
+          </Object>
+          <Object>
+            <id val="1988"/>
+            <ItemIsn val="471"/>
+            <PublicName val="ZE_月別支払ｸﾞﾗﾌ"/>
+          </Object>
+          <Object>
+            <id val="1998"/>
+            <ItemIsn val="472"/>
+            <PublicName val="DI_月別支払ｸﾞﾗﾌ"/>
+          </Object>
+          <Object>
+            <id val="2006"/>
+            <ItemIsn val="473"/>
+            <PublicName val="MO_月別支払ｸﾞﾗﾌ"/>
+          </Object>
+          <Object>
+            <id val="2012"/>
+            <ItemIsn val="474"/>
+            <PublicName val="DI_月別不良ｸﾞﾗﾌ"/>
+          </Object>
+          <Object>
+            <id val="2021"/>
+            <ItemIsn val="475"/>
+            <PublicName val="MO_月別不良ｸﾞﾗﾌ"/>
+          </Object>
+          <Object>
+            <id val="2029"/>
+            <ItemIsn val="476"/>
+            <PublicName val="DI_月別実績ｼｮｯﾄｸﾞﾗﾌ(ｱﾙﾐ)"/>
+          </Object>
+          <Object>
+            <id val="2041"/>
+            <ItemIsn val="477"/>
+            <PublicName val="DI_月別仕入金額一覧"/>
+          </Object>
+          <Object>
+            <id val="2042"/>
+            <ItemIsn val="478"/>
+            <PublicName val="DI_月別仕入金額一覧表"/>
+          </Object>
+          <Object>
+            <id val="2045"/>
+            <ItemIsn val="479"/>
+            <PublicName val="DI_月別工程実績一覧"/>
+          </Object>
+          <Object>
+            <id val="2048"/>
+            <ItemIsn val="480"/>
+            <PublicName val="DI_月別外注工程実績一覧表"/>
+          </Object>
+          <Object>
+            <id val="2051"/>
+            <ItemIsn val="481"/>
+            <PublicName val="MO_月別成形不良ｸﾞﾗﾌ"/>
+          </Object>
+          <Object>
+            <id val="2070"/>
+            <ItemIsn val="482"/>
+            <PublicName val="SA_売上明細表"/>
+          </Object>
+          <Object>
+            <id val="2075"/>
+            <ItemIsn val="483"/>
+            <PublicName val="SA_売上一覧"/>
+          </Object>
+          <Object>
+            <id val="2086"/>
+            <ItemIsn val="484"/>
+            <PublicName val="SA_支払一覧"/>
+          </Object>
+          <Object>
+            <id val="2089"/>
+            <ItemIsn val="485"/>
+            <PublicName val="SA_相殺額データ集計"/>
+          </Object>
+          <Object>
+            <id val="2707"/>
+            <ItemIsn val="486"/>
+            <PublicName val="DI_不良統計表New"/>
+          </Object>
+          <Object>
+            <id val="2923"/>
+            <ItemIsn val="487"/>
+            <PublicName val="KA_加工見積定数情報作成"/>
+          </Object>
+          <Object>
+            <id val="2924"/>
+            <ItemIsn val="488"/>
+            <PublicName val="KA_加工見積刃具種類情報作成"/>
+          </Object>
+          <Object>
+            <id val="2925"/>
+            <ItemIsn val="489"/>
+            <PublicName val="KA_加工刃具情報作成"/>
+          </Object>
+          <Object>
+            <id val="2926"/>
+            <ItemIsn val="490"/>
+            <PublicName val="KA_加工面切削巾情報作成"/>
+          </Object>
+          <Object>
+            <id val="2927"/>
+            <ItemIsn val="491"/>
+            <PublicName val="KA_加工設備情報作成"/>
+          </Object>
+          <Object>
+            <id val="3099"/>
+            <ItemIsn val="492"/>
+            <PublicName val="MO_成形機情報作成"/>
+          </Object>
+          <Object>
+            <id val="3100"/>
+            <ItemIsn val="493"/>
+            <PublicName val="MO_成形機情報一覧"/>
+          </Object>
+          <Object>
+            <id val="3778"/>
+            <ItemIsn val="494"/>
+            <PublicName val="ZE_２５日払銀行振込ﾃﾞｰﾀ作成"/>
+          </Object>
+          <Object>
+            <id val="3779"/>
+            <ItemIsn val="495"/>
+            <PublicName val="ZE_２５日払銀行振込ﾃﾞｰﾀ一覧"/>
+          </Object>
+          <Object>
+            <id val="3780"/>
+            <ItemIsn val="496"/>
+            <PublicName val="ZE_２５日払銀行振込ﾃﾞｰﾀ一覧表"/>
+          </Object>
+          <Object>
+            <id val="3782"/>
+            <ItemIsn val="497"/>
+            <PublicName val="ZE_２５日払振込金額変更"/>
+          </Object>
+          <Object>
+            <id val="3784"/>
+            <ItemIsn val="498"/>
+            <PublicName val="ZE_２５日払銀行振込ﾃﾞｰﾀＦＤ"/>
+          </Object>
+          <Object>
+            <id val="3793"/>
+            <ItemIsn val="499"/>
+            <PublicName val="MI_不良返品伝票"/>
+          </Object>
+        </ComponentPrograms>
+      </Component>
+    </Components>
+  </ComponentsRepository>
+
+</Application>
